@@ -1,0 +1,9 @@
+{
+  "citationExportFormat": "biblatex",
+  "literatureNoteTitleTemplate": "¶{{citekey}}",
+  "literatureNoteFolder": "80_PKM/82_Sources",
+  "literatureNoteContentTemplate": "---\ntitle: \"{{title}}\"\nauthors: {{authorString}}\nyear: {{year}}\ncompleted: \n---\n# {{title}}\n\nzotero:: [🔗]({{zoteroSelectURI}})\n\n*{{abstract}}*\n\n# Notes:\n\n",
+  "markdownCitationTemplate": "[{{citekey}}][¶{{citekey}}]",
+  "alternativeMarkdownCitationTemplate": "¶{{citekey}}",
+  "citationExportPath": "00_Meta/04_Zotero/zotero.bib"
+}

@@ -1,0 +1,135 @@
+{
+  "main": {
+    "id": "f28ebd1e59acadc6",
+    "type": "split",
+    "children": [
+      {
+        "id": "3753988f8dcaa638",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "_README/readme.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e328ecba7fe40992",
+    "type": "split",
+    "children": [
+      {
+        "id": "34eede7a961b437f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9e5699363766f707",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "81a0c662bc426002",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "organize features planning",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7e6ed56fcd720488",
+    "type": "split",
+    "children": [
+      {
+        "id": "e2b2ce61b60e028a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e3c62c45ee26d72f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_README/readme.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ed5ef7867fcb4ba2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_README/readme.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "212556fc8373378c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b7c9be2a26398858",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_README/readme.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "3753988f8dcaa638",
+  "lastOpenFiles": [
+    "_README/readme.md",
+    "10_Work/11_EmployerName/1st Project/1st Project.md",
+    "10_Work/11_EmployerName/_Employer Name.md",
+    "10_Work/_Work.md",
+    "20_Personal/22_Recipes/_Recipes.md",
+    "20_Personal/22_Recipes/202001252153 Cracker Barrel Buttermilk Pancakes Recipe.md",
+    "20_Personal/22_Recipes/202001181200 Bull jowl.md",
+    "20_Personal/22_Recipes/202001181159 Rosslyns sauted shrimp.md",
+    "20_Personal/22_Recipes/201910021259 How to Make Sourdough Bread.md",
+    "20_Personal/22_Recipes/201812151334 Trinidad stewed beef and dumplings.md"
+  ]
+}

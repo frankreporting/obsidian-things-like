@@ -1,0 +1,183 @@
+{
+  "choices": [
+    {
+      "id": "6b5561fe-870b-41ce-8233-2a70805fd19f",
+      "name": "Quick Switcher",
+      "type": "Macro",
+      "command": true,
+      "macroId": "3f6c17a8-067d-4d31-bf5d-ee2253d63a62"
+    },
+    {
+      "id": "6ee2da51-639e-4a87-9e7a-49d76b8bcdec",
+      "name": "Command Palette",
+      "type": "Macro",
+      "command": true,
+      "macroId": "643d7e8d-76d8-445d-b9e4-dff445fa1b9f"
+    },
+    {
+      "id": "539351fd-5b17-4464-ab77-0c649cf41b21",
+      "name": "Mark Complete",
+      "type": "Macro",
+      "command": true,
+      "macroId": "d9ee7edc-fe6b-4a70-84b2-a6ea53ff6e06"
+    },
+    {
+      "id": "42eaccac-0001-4a41-968e-3341253cdab7",
+      "name": "Edit Metadata",
+      "type": "Macro",
+      "command": true,
+      "macroId": "32a7867d-a51e-47e0-a61c-9b83457c0650"
+    },
+    {
+      "id": "76a6a862-dd52-4d99-ad22-9f002c34d2c1",
+      "name": "Add to Daily Note",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "00_Meta/06_Logbook/{{DATE:YYYY-MM-DD}}.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": true,
+        "template": "00_Meta/01_Templates/Daily Note.md"
+      },
+      "format": {
+        "enabled": true,
+        "format": "\\n- {{DATE:HH:mm}} {{VALUE}}"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "# {{DATE:dddd, MMMM D, YYYY}}",
+        "insertAtEnd": false,
+        "createIfNotFound": true,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "a94521d0-bf9b-4291-a8e5-e53868cc59cb",
+      "name": "Mobile test",
+      "type": "Macro",
+      "command": true,
+      "macroId": "b87c395f-2ce3-41f1-aed0-78496b3d6869"
+    }
+  ],
+  "macros": [
+    {
+      "name": "Command Palette",
+      "id": "643d7e8d-76d8-445d-b9e4-dff445fa1b9f",
+      "commands": [
+        {
+          "name": "Command palette: Open command palette",
+          "type": "Obsidian",
+          "id": "3f2656ab-3d63-4d9b-ae4d-a3af8911f833",
+          "commandId": "command-palette:open"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Quick Open",
+      "id": "3f6c17a8-067d-4d31-bf5d-ee2253d63a62",
+      "commands": [
+        {
+          "name": "Quick Switcher++: Open",
+          "type": "Obsidian",
+          "id": "5692e00d-8c81-4568-b8ae-04a9e9d91ae7",
+          "commandId": "darlal-switcher-plus:switcher-plus:open"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "MetaEdit",
+      "id": "32a7867d-a51e-47e0-a61c-9b83457c0650",
+      "commands": [
+        {
+          "name": "MetaEdit: Run MetaEdit",
+          "type": "Obsidian",
+          "id": "73c58e06-6a4e-4689-88b1-5674524ac66c",
+          "commandId": "metaedit:metaEditRun"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "QuickAdd",
+      "id": "6c7d0dad-d899-45f4-aa9d-c76aa3608c5a",
+      "commands": [
+        {
+          "name": "QuickAdd",
+          "type": "UserScript",
+          "id": "46b7fdd2-5f3e-4522-a3c7-2f1f847e28f4",
+          "path": "00_Meta/08_QuickAdd/QuickAdd.js",
+          "settings": {}
+        },
+        {
+          "name": "Task from Template",
+          "type": "NestedChoice",
+          "id": "759a095c-886c-4110-b335-b120d9c7fb90",
+          "choice": {
+            "id": "5d816184-5b56-453d-8767-58be0353b083",
+            "name": "Task from Template",
+            "type": "Template",
+            "command": false,
+            "templatePath": "00_Meta/01_Templates/Task.md",
+            "fileNameFormat": {
+              "enabled": false,
+              "format": ""
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "{{VALUE:selectedFolder}}"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false
+            },
+            "appendLink": false,
+            "incrementFileName": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Mobile test",
+      "id": "b87c395f-2ce3-41f1-aed0-78496b3d6869",
+      "commands": [
+        {
+          "name": "mobileTest",
+          "type": "UserScript",
+          "id": "1e97f205-898f-4945-ab81-73fd2ad4ad61",
+          "path": "00_Meta/08_QuickAdd/mobileTest.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Mark Completed",
+      "id": "d9ee7edc-fe6b-4a70-84b2-a6ea53ff6e06",
+      "commands": [
+        {
+          "name": "markCompleted",
+          "type": "UserScript",
+          "id": "033889aa-9602-4720-9c04-7140e6271fa7",
+          "path": "00_Meta/08_QuickAdd/markCompleted.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    }
+  ]
+}

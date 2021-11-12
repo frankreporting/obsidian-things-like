@@ -1,0 +1,438 @@
+/* @settings
+name: "WYSIWYG-Like"
+id: global
+adapted-from: 
+    - Santi Younger's Org-sidian-Bullets: https://github.com/santiyounger/Org-sidian-Bullets
+    - Ozan Tellioglu's oz-image-in-editor-obsidian: https://github.com/ozntel/oz-image-in-editor-obsidian
+    - ChezFrancois's Typora-like Custom CSS shared in Obsidian Forum
+    - Mara-Li's WYSIWYG.css: https://github.com/Mara-Li/Obsidian-WYSIWYG/blob/main/WYSIWYG.css
+last-updated: 7/21/21 
+settings:
+	- 
+		id: mobile
+		title: Mobile support
+		description: Add the mobile support instead of pc
+		type: class-toggle
+	-
+		id: mobile-options
+		type: heading
+		collapsed: true
+		title: Mobile Options
+		level: 2
+		description: Some options for mobile.
+	-
+		id: markdown-opacity
+		type: variable-number-slider
+		default: 0.1
+		min: 0
+		max: 1
+		step: 0.1
+		title: Opacity for markdown clutter.
+	-
+		id: header-mobile 
+		type: class-toggle
+		description: Don't display the markdown header clutter at all. 
+		title: Header display 
+	-
+		id: Options
+		level: 1
+		title: Other option
+		description: Other option
+		type: heading
+	-
+		id: size_clutter
+		type: variable-number-slider
+		default: 5
+		min: 0
+		max: 30
+		step: 1
+		title: Markdown clutter font size
+		description: The size of the markdown clutter.
+		format: px
+    -
+        id: text-mark
+		title: Hightlight Background
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#dbaa205e'
+		default-dark: '#dbaa205e'
+    -
+        id: Link's option
+        description: And it's not Zelda!
+        type: Heading
+        level: 2
+        collapsed: true
+	-
+		id: text-link
+		title: Markdown Link Color 
+		type: variable-themed-color
+		opacity: false 
+		format: hex
+		default-light: "#4d77bb"
+		default-dark: "#d7e9f0"
+    -
+        id: link-hover
+        type: variable-themed-color
+        title: Link Hover
+        opacity: true
+        format: hex
+        default-light: "#029eff"
+        default-dark: "#54b6c0"
+    -
+        id: external-link
+        title: External Link Color
+        opacity: false
+        format: hex
+        default-light: "#4d77bb"
+		default-dark: "#d7e9f0"
+        type: variable-themed-color
+    -
+        id: task-title
+        title: Task 
+        Description: Quick Adjust your checkbox to feat your theme
+        type: heading
+        level: 2
+        collapsed: true
+	-
+        id: color-task
+        title: Task Color
+        Description: Adjust the color
+        type: variable-themed-color
+        default-light: '#1d588f'
+		default-dark: '#1d588f'
+    -
+        id: task-pc
+        title: Task (PC vers)
+        type: variable-number-slider
+        format: "%"
+        default: 2
+        min: 0
+        max: 10
+        step: 1
+    -
+        id: task-mobile
+        title: Task Margin (Mobile Ver)
+        format: px
+        default: 10
+        type: variable-number-slider
+        min: 0
+        max: 30
+        step: 1
+    -
+        id: task-size
+        format: px
+        default: 35
+        type: variable-number
+        title: Task Symbole size
+    
+    -
+		id : header-Blockquote
+		title: Blockquote
+		type: heading
+		description: Active and change the color for the blockquote.
+		level: 1
+		collapsed: true 
+	-
+		id: blockquote
+		title: Blockquote 
+		description: Add nice blockquote. 
+		type: class-toggle
+	- 
+		id: color-blockquote
+		title: Blockquote border color
+		description: change the blockquote color
+		type: variable-themed-color
+		opacity: false
+		format: hex
+		default-light: "#54b6c0"
+		default-dark: "#54b6c0"
+	- 
+		id: bg-blockquote
+		title: Blockquote background color
+		description: change the background color
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: "#F7F7F7"
+		default-dark: "#F7F7F7"
+	- 
+		id: header-tags
+		title: Tags
+		description: Change the color for the tags pills.
+		type: heading
+		level: 1
+		collapsed: true
+	- 
+		id: tag-background-color
+		title: Tag Background Color
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#80cbee67'
+		default-dark: '#80cbee67'
+	- 
+		id: tag
+		title: Tag color font
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#1d588f'
+		default-dark: '#1d588f'
+	- 
+		id: tag-border-color
+		title: Tag border color 
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: "#0493ec"
+		default-dark: "#0493ec"
+    -
+        id: padding-tag
+        title: Tag Padding
+        description: Adjust the border and the text
+        default: 5
+        format: px
+        type: variable-number
+*/
+
+/* possible snippet for task list items */
+/* <input data-line="0" type="checkbox" class="task-list-item-checkbox"> */
+
+/* Headers */
+.markdown-preview-view h1, .cm-header-1 { font-size: 1.64rem; }
+.markdown-preview-view h2, .cm-header-2 { font-size: 1.33rem; }
+.markdown-preview-view h3, .cm-header-3 { font-size: 1.16rem; }
+.markdown-preview-view h4, .cm-header-4 { font-size: 1rem; }
+.markdown-preview-view h5, .cm-header-5 { font-size: 0.83rem; }
+.markdown-preview-view h6, .cm-header-6 { font-size: 0.64rem; }
+
+.markdown-preview-view h1 { border-bottom: 2px solid; margin-top: 1.5em; }
+.markdown-preview-view h2 { border-bottom: 1px solid; margin-top: 1.2em; }
+
+.cm-formatting-header-1 { font-size: 1.83rem; }
+.cm-formatting-header-2 { font-size: 1.44rem; }
+.cm-formatting-header-3 { font-size: 1.16rem; }
+.cm-formatting-header-4 { font-size: 1rem; }
+.cm-formatting-header-5 { font-size: 0.83rem; }
+.cm-formatting-header-6 { font-size: 0.64rem; }
+
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-header {
+  color: transparent !important;
+}
+
+.header-mobile span.cm-formatting.cm-formatting-header {
+  display: none !important;
+}
+
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-header::before {
+  display: inline-block !important;
+  white-space: nowrap;
+  word-wrap: none;
+  width:0;
+  overflow:visible;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-header-1::before,
+.header-mobile span.cm-formatting-header-1.cm-header.cm-header-1::before {
+  content: 'H1';
+}
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-header-2::before,
+.header-mobile span.cm-formatting.cm-formatting-header.cm-formatting-header-2.cm-header.cm-header-2::before {
+  content: 'H2';
+}
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-header-3::before,
+.header-mobile span.cm-formatting.cm-formatting-header.cm-formatting-header-3.cm-header.cm-header-3::before {
+  content: 'H3';
+}
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-header-4::before,
+.header-mobile span.cm-formatting.cm-formatting-header.cm-formatting-header-4.cm-header.cm-header-4::before {
+  content: 'H4';
+}
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-header-5::before,
+.header-mobile span.cm-formatting.cm-formatting-header.cm-formatting-header-5.cm-header.cm-header-5::before {
+  content: 'H5';
+}
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-header-6::before,
+.header-mobile span.cm-formatting.cm-formatting-header.cm-formatting-header-6.cm-header.cm-header-6::before {
+  content: 'H6';
+}
+
+/* H1 and H2 underlines */
+.HyperMD-header.HyperMD-header-1.CodeMirror-line,
+.mobile pre.HyperMD-header.HyperMD-header-1,
+.mobile .HyperMD-header.HyperMD-header-1,
+.mobile .HyperMD-header-1 {
+    border-bottom: 2px solid lightgray !important;
+    border-bottom: linear;
+}
+
+.HyperMD-header.HyperMD-header-2.CodeMirror-line,
+.mobile pre.HyperMD-header.HyperMD-header-2,
+.mobile .HyperMD-header.HyperMD-header-2,
+.mobile .HyperMD-header-2 {
+    border-bottom: 1px solid lightgray !important;
+}
+
+/* --- HORIZONTAL RULES ---  */
+
+/* Hide --- if not active line */
+div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-hr,
+.mobile .cm-hr,
+.mobile span.cm-hr {
+    color: transparent !important;
+}
+
+/* Render simple line */
+.CodeMirror-code > :not(.CodeMirror-activeline) .HyperMD-hr.CodeMirror-line,
+.mobile .cm-hr:after,
+.mobile span.cm-hr:after,
+.mobile .markdown-preview-section hr:after {
+    height: 1px;
+    background: lightgray !important;
+    background: -webkit-gradient(linear, 0 0, 100% 1px, from(white), to(white), color-stop(0%, lightgray));
+}
+
+/* --- BLOCKQUOTES ---  */
+
+.cm-quote {
+    font-style: italic;
+}
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting.cm-formatting-quote,
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-hmd-indent-in-quote {
+  color: transparent !important;
+  display: inline !important;
+}
+div:not(.CodeMirror-activeline)>.HyperMD-quote {
+   border-left: 3px solid var(--text-selection);
+   border-color: var(--text-accent) !important;
+   border-radius: 0 8px 8px 0;
+   background-color:rgb(238, 234, 234);
+   margin-left: 5px;
+   padding: 8px 18px 8px 8px;
+   display: inline-block;
+   width: 100%;
+}
+
+/* --- UNORDERED LISTS ---  */
+
+/* hide - if not active active line */ 
+.CodeMirror-code > :not(.CodeMirror-activeline) .cm-formatting-list-ul {
+    display:none;
+}
+
+/* unordered list 1 */
+.CodeMirror-code> :not(.CodeMirror-activeline) .cm-formatting-list-ul+.cm-list-1::before {
+    /* margin-left: 3px; */
+    margin-right: 0.3em;
+    content: "•";
+}
+
+/* unordered list 2 */
+.CodeMirror-code> :not(.CodeMirror-activeline) .cm-formatting-list-ul+.cm-list-2::before {
+    /* margin-left: 3px; */
+    margin-right: 0.3em;
+    content: "◦";
+}
+
+/* unordered list 3 */
+.CodeMirror-code> :not(.CodeMirror-activeline) .cm-formatting-list-ul+.cm-list-3::before {
+    /* margin-left: 3px; */
+    margin-right: 0.3em;
+    content: "‣";
+}
+
+/* --- TASKS ---  */
+
+/* hide - [ ] if not active line */
+.CodeMirror-code > :not(.CodeMirror-activeline) .cm-formatting-task.cm-meta,
+.CodeMirror-code > :not(.CodeMirror-activeline) .cm-formatting-task.cm-property {
+    display:inline !important;
+    color: transparent;
+    margin-left: -1em;
+}
+
+/* incomplete task */
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-task.cm-meta::after {
+  content: "⬜️";  
+  margin-right: 0.2em;
+  color:rgb(124, 131, 124);
+}
+
+/* completed task */
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-task.cm-property:after {
+    content: "✅";
+    margin-right: 0.2em;
+    color:rgb(124, 131, 124) !important;
+}
+span.cm-formatting-task.cm-property ~ span,
+.markdown-preview-view ul > li.task-list-item.is-checked {
+  text-decoration: line-through;
+  color: rgb(124, 131, 124) !important;
+}
+
+/* --- HIGHLIGHTS ---  */
+
+/* hide == if not active line */
+div:not(.CodeMirror-activeline) > .CodeMirror-line .cm-formatting-highlight.cm-highlight {
+    font-size: 0;
+   }
+
+/* --- BOLD ---  */
+
+/* Hide ** if not active line */
+div:not(.CodeMirror-activeline) > 
+.CodeMirror-line span.cm-formatting.cm-formatting-strong.cm-strong {
+    display:none;
+}
+
+/* --- ITALIC ---  */
+
+/* Hide * if not active line */
+div:not(.CodeMirror-activeline) >
+.CodeMirror-line span.cm-formatting.cm-formatting-em.cm-em {
+    display:none;
+}
+
+/* --- LINKS ---  */
+/* div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-string.cm-url {
+  visibility: hidden;
+  /* display: none; */
+  /* font-size: 0; */
+  /* position: absolute; 
+} */
+
+/* .mobile span.cm-string.cm-url {
+  color: transparent !important;
+  display: inline !important;
+  font-size: 1px;
+} */
+
+/* .mobile span.cm-url.cm-string:not(span.cm-formatting.cm-formatting-link-string.cm-string.cm-url):before {
+  content: url("https://api.iconify.design/majesticons:external-link-line.svg?color=%230493ec&height=20");
+  opacity: 1 !important;
+  display: inline !important;
+} */
+
+/* div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-list.cm-formatting-list-ul {
+  visibility: visible !important;
+} */
+
+/* div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-link-string.cm-string.cm-url::after {
+  content: "(🔗)";
+  /* font-size: 1em !important; 
+  visibility: visible;
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+} */
+
+/* div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-string.cm-url {
+  font-size: 0em;
+}
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting.cm-formatting-link-string.cm-string.cm-url::after {
+  content: "(🔗)";
+  font-size: 1em !important;
+} */

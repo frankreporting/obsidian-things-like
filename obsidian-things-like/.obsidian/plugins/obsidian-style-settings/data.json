@@ -1,0 +1,9 @@
+{
+  "global@@mobile": true,
+  "global@@markdown-opacity": 0.7,
+  "global@@header-mobile": true,
+  "global@@task-pc": 7,
+  "global@@task-mobile": 10,
+  "global@@blockquote": true,
+  "CodeMirror Options@@cm-theme-selection": "cm-theme-material-palenight"
+}

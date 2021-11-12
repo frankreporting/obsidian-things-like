@@ -1,0 +1,13 @@
+{
+  "snippets_file": "snippets : It is an obsidian plugin, that replaces your selected text.\nxdv : ```dataview$nl$$end$$nl$```\nxyaml : ---$nl$$end$$nl$---\nxalias : ---$nl$alias: $end$$nl$---",
+  "snippets": [
+    "snippets : It is an obsidian plugin, that replaces your selected text.",
+    "xdv : ```dataview$nl$$end$$nl$```",
+    "xyaml : ---$nl$$end$$nl$---",
+    "xalias : ---$nl$alias: $end$$nl$---"
+  ],
+  "endSymbol": "$end$",
+  "newlineSymbol": "$nl$",
+  "stopSymbol": "$tb$",
+  "useTab": true
+}

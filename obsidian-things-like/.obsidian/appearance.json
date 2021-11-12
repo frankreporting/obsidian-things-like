@@ -1,0 +1,13 @@
+{
+  "baseFontSize": 16,
+  "cssTheme": "",
+  "theme": "obsidian",
+  "translucency": false,
+  "enabledCssSnippets": [
+    "hide-title-header",
+    "wysi-bullets",
+    "minimal-theme-link-fix",
+    "focus-mode-fix",
+    "settings-sidebar-font-fix"
+  ]
+}

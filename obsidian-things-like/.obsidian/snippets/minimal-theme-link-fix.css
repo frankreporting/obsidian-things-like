@@ -1,0 +1,36 @@
+/* Make url string muted and hyperlinked text colored, like HTML */
+/* updated */
+/* 7/21/21 */
+
+.CodeMirror-line span.cm-string+.cm-url,
+.mobile span.cm-string+.cm-url {
+    color: var(--text-muted);
+}
+
+.CodeMirror-line span.cm-link,
+.mobile span.cm-link {
+    color: var(--text-accent);
+}
+
+.CodeMirror-line .cm-formatting.cm-formatting-link-string.cm-string.cm-url,
+.mobile .cm-formatting.cm-formatting-link-string.cm-string.cm-url {
+    color: var(--text-muted);
+}
+
+/* No underlines on linked headers */
+
+.minimal-theme.links-int-on .markdown-preview-view .internal-link,
+.markdown-preview-view .internal-link, 
+.hmd-fold-code-content.hmd-fold-code-dataview .internal-link {
+    text-decoration: none;
+}
+
+/* Fix status bar and bottom command strip overlap */
+
+.hider-ribbon:not(.is-mobile) .workspace-ribbon.mod-left {
+    z-index: 50;
+}
+
+.focus-mode.view-content {
+    height: 100%;
+}

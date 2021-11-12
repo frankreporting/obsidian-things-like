@@ -1,0 +1,618 @@
+{
+  "workspaces": {
+    "Threat": {
+      "main": {
+        "id": "affe42b1844588de",
+        "type": "split",
+        "children": [],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "f0eab3e3dfb32198",
+        "type": "split",
+        "children": [
+          {
+            "id": "130f556a40bb722c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "97de09a2dd47a94c",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {}
+                }
+              },
+              {
+                "id": "67fd457ecced6d3b",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 272,
+        "collapsed": true
+      },
+      "right": {
+        "id": "66a844bc7c7c41bc",
+        "type": "split",
+        "children": [
+          {
+            "id": "8fbb13e5da79f3d2",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "51a1ef96858cc9a2",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "inbox/Note to Watermill Community Fellows.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "cd12388e93cb0179",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "0ddf90c19bb6a0fd",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "inbox/Note to Watermill Community Fellows.md"
+                  }
+                }
+              },
+              {
+                "id": "bb45cc0d4f9a075e",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 2
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300
+      }
+    },
+    "IRE Symposium": {
+      "main": {
+        "id": "81fabf3d156c97e6",
+        "type": "split",
+        "children": [
+          {
+            "id": "43a565deb574694d",
+            "type": "split",
+            "dimension": 27.359050445103854,
+            "children": [
+              {
+                "id": "26a0d66938a25309",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "00_Meta/06_Logbook/Set up Source Diversity Task Force.md",
+                    "mode": "source"
+                  }
+                },
+                "pane-relief:history-v1": {
+                  "pos": 1,
+                  "stack": [
+                    {
+                      "leaf": "26a0d66938a25309",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00_Meta/06_Logbook/2021-10-27 Interview - Source Tracker Tips with Mariana Dale.md\",\"mode\":\"source\"}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":2},\"to\":{\"line\":16,\"ch\":2}},\"scroll\":4.6}"
+                    },
+                    {
+                      "leaf": "26a0d66938a25309",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00_Meta/06_Logbook/Set up Source Diversity Task Force.md\",\"mode\":\"source\"}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.041666666666666664}"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "7cf919b70986cb4c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "00_Meta/06_Logbook/2021-10-21 Master class on injecting DEI into your newsroom's DNA.md",
+                    "mode": "source"
+                  }
+                },
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "leaf": "7cf919b70986cb4c",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00_Meta/06_Logbook/2021-10-21 Master class on injecting DEI into your newsroom's DNA.md\",\"mode\":\"source\"}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.02355072463768116}"
+                    },
+                    {
+                      "leaf": "7cf919b70986cb4c",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00_Meta/06_Logbook/2021-10-21 DBEI - Holding yourself accountable for story selection.md\",\"mode\":\"source\"}}",
+                      "eState": "{\"scroll\":0.02480916030534351}"
+                    }
+                  ]
+                }
+              }
+            ],
+            "direction": "horizontal"
+          },
+          {
+            "id": "21aac7362787d4b2",
+            "type": "leaf",
+            "dimension": 37.1513353115727,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🏠/Applying Lessons from IRE's Diversity Symposium.md",
+                "mode": "source"
+              }
+            },
+            "pane-relief:history-v1": {
+              "pos": 2,
+              "stack": [
+                {
+                  "leaf": "21aac7362787d4b2",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00_Meta/06_Logbook/2021-10-27 Merlin Office Hours.md\",\"mode\":\"source\"}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":21,\"ch\":198},\"to\":{\"line\":21,\"ch\":198}},\"scroll\":20.041666666666668}"
+                },
+                {
+                  "leaf": "21aac7362787d4b2",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🏠/☀️ Today.md\",\"mode\":\"preview\"}}",
+                  "eState": "{\"scroll\":0.030660377358490566}"
+                },
+                {
+                  "leaf": "21aac7362787d4b2",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🏠/Applying Lessons from IRE's Diversity Symposium.md\",\"mode\":\"source\"}}",
+                  "eState": "{\"scroll\":0.7246376811594203}"
+                },
+                {
+                  "leaf": "21aac7362787d4b2",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00_Meta/06_Logbook/Set up Source Diversity Task Force.md\",\"mode\":\"source\"}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":14,\"ch\":70},\"to\":{\"line\":14,\"ch\":70}},\"scroll\":0.6546112115732369}"
+                },
+                {
+                  "leaf": "21aac7362787d4b2",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00_Meta/06_Logbook/_Source Tracker.md\",\"mode\":\"source\"}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":67},\"to\":{\"line\":10,\"ch\":67}},\"scroll\":0.6535796766743649}"
+                }
+              ]
+            }
+          },
+          {
+            "id": "a7ba007f499500ff",
+            "type": "split",
+            "dimension": 35.489614243323444,
+            "children": [
+              {
+                "id": "266041b1c7c69b16",
+                "type": "leaf",
+                "dimension": 65.24685382381413,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "00_Meta/06_Logbook/2021-10-21 DBEI - Holding yourself accountable for story selection.md",
+                    "mode": "source"
+                  }
+                },
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "leaf": "266041b1c7c69b16",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"00_Meta/06_Logbook/2021-10-21 DBEI - Holding yourself accountable for story selection.md\",\"mode\":\"source\"}}",
+                      "eState": "{\"cursor\":{\"from\":{\"line\":22,\"ch\":17},\"to\":{\"line\":22,\"ch\":17}},\"scroll\":11}"
+                    },
+                    {
+                      "leaf": "266041b1c7c69b16",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🏠/📔 Logbook.md\",\"mode\":\"preview\"}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "leaf": "266041b1c7c69b16",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"80_PKM/81_Notes/Untitled.md\",\"mode\":\"source\"}}",
+                      "eState": "{\"scroll\":0.026052104208416832}"
+                    }
+                  ]
+                }
+              },
+              {
+                "id": "d62ecc0433e25b04",
+                "type": "leaf",
+                "dimension": 34.753146176185865,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "80_PKM/81_Notes/Obsidian Admonition Guide.md",
+                    "mode": "source"
+                  }
+                },
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "leaf": "d62ecc0433e25b04",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"80_PKM/81_Notes/Obsidian Admonition Guide.md\",\"mode\":\"source\"}}",
+                      "eState": "{\"scroll\":0.04887218045112782}"
+                    }
+                  ]
+                }
+              }
+            ],
+            "direction": "horizontal"
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "b44b5d81c67985f3",
+        "type": "split",
+        "children": [
+          {
+            "id": "486aff8e4ad15454",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "083a2dbd4912405d",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {}
+                },
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                }
+              },
+              {
+                "id": "75538b69a59c1d96",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "#javascript",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                },
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                }
+              },
+              {
+                "id": "5fc3cd27f1328ae3",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "🏠/🎛 Dashboard.md",
+                    "mode": "preview"
+                  }
+                },
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": [
+                    {
+                      "leaf": "5fc3cd27f1328ae3",
+                      "group": null,
+                      "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"🏠/🎛 Dashboard.md\",\"mode\":\"preview\"}}",
+                      "eState": "{}"
+                    },
+                    {
+                      "leaf": "5fc3cd27f1328ae3",
+                      "group": null,
+                      "state": "{\"type\":\"empty\",\"state\":{}}",
+                      "eState": "{}"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 261,
+        "collapsed": true
+      },
+      "right": {
+        "id": "df62de2d54d68f6a",
+        "type": "split",
+        "children": [
+          {
+            "id": "2c4b75d7d4871c6a",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "43a60df1bf080d55",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                },
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                }
+              }
+            ]
+          },
+          {
+            "id": "230fb1908afe660d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "9596d6a23072b94a",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "🏠/Applying Lessons from IRE's Diversity Symposium.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": false
+                  }
+                },
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                }
+              },
+              {
+                "id": "c8fe7c7389783bd3",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "🏠/Applying Lessons from IRE's Diversity Symposium.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                },
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                }
+              },
+              {
+                "id": "b619b1fcc5d11c3d",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                },
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                }
+              },
+              {
+                "id": "78c4d9070e2ebf1a",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "🏠/Applying Lessons from IRE's Diversity Symposium.md"
+                  }
+                },
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                }
+              },
+              {
+                "id": "d936da287e43f91e",
+                "type": "leaf",
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {}
+                },
+                "pane-relief:history-v1": {
+                  "pos": 0,
+                  "stack": []
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300,
+        "collapsed": true
+      },
+      "active": "21aac7362787d4b2"
+    },
+    "Default": {
+      "main": {
+        "id": "c064203c7fbb17ca",
+        "type": "split",
+        "children": [
+          {
+            "id": "1d17c88f344b7eb2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Organize features planning for KPCC.md",
+                "mode": "source"
+              }
+            },
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "leaf": "1d17c88f344b7eb2",
+                  "group": null,
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Organize features planning for KPCC.md\",\"mode\":\"source\"}}",
+                  "eState": "{\"scroll\":0.02936850028766704}"
+                }
+              ]
+            }
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "f0eab3e3dfb32198",
+        "type": "split",
+        "children": [
+          {
+            "id": "130f556a40bb722c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "97de09a2dd47a94c",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {}
+                }
+              },
+              {
+                "id": "67fd457ecced6d3b",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 272,
+        "collapsed": true
+      },
+      "right": {
+        "id": "66a844bc7c7c41bc",
+        "type": "split",
+        "children": [
+          {
+            "id": "8fbb13e5da79f3d2",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "bb45cc0d4f9a075e",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "b7387c74a214076e",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "0ddf90c19bb6a0fd",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Organize features planning for KPCC.md"
+                  }
+                }
+              },
+              {
+                "id": "cd12388e93cb0179",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "51a1ef96858cc9a2",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Organize features planning for KPCC.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300
+      },
+      "active": "1d17c88f344b7eb2"
+    }
+  },
+  "active": "IRE Symposium"
+}

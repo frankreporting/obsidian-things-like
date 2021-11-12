@@ -1,0 +1,45 @@
+/* Hides title area when "Hide action buttons setting in focus mode" 
+setting is enabled in Minimal Theme Settings */ 
+
+.view-header {
+  z-index: 10;
+}
+
+.view-header-title-container {
+  transition:opacity 0.25s ease-in-out;
+}
+
+.view-header-title-container.is-active {
+  opacity:1;
+}
+
+.focus-mode .view-header {
+  opacity: 0;
+  transition:opacity 0.25s ease-in-out;
+}
+
+.mod-root .view-header:hover {
+  opacity:1;
+  transition:opacity 0.25s ease-in-out;
+}
+
+.workspace-ribbon:not(.is-collapsed) ~ .mod-root .view-header-title-container,
+.focus-mode .workspace-ribbon:not(.is-collapsed) ~ .mod-root .view-header:hover .view-header-title-container,
+.workspace-ribbon.mod-left.is-collapsed ~ .mod-root .view-header:hover .view-header-title-container,
+.mod-right.is-collapsed ~ .mod-root .view-header:hover .view-header-title-container {
+  opacity:1;
+  transition:opacity 0.25s ease-in-out;
+}
+
+.focus-mode .view-header-title-container,
+.focus-mode .workspace-ribbon.mod-right.is-collapsed ~ .mod-root .view-header-title-container,
+.focus-mode .workspace-ribbon.mod-left.is-collapsed ~ .mod-root .view-header-title-container {
+  opacity:0;
+  transition:opacity 0.25s ease-in-out;
+}
+
+/* .view-content {
+  left: 0;
+  top: 0;
+  position: absolute; 
+} */

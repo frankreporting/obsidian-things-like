@@ -1,0 +1,102 @@
+<style type="text/css">
+/* Justify all paragraphs besides title-slide stuff, blockquotes, and imgs */
+p:not(p.author):not(p.date):not(blockquote p):not(p img) {
+  text-align: justify;
+}
+
+code.sourceCode {
+  white-space: pre-wrap !important;
+  word-break: break-all !important;
+  overflow: hidden !important;
+  font-size: larger;
+}
+
+.reveal p, .reveal li {
+  font-size: .8em;
+}
+
+.reveal blockquote {
+  width: 80%;
+  padding: 30px;
+  border: 1px rgba(24, 25, 26, 0.486);
+  border-radius: 15px;
+  background: #761723;
+}
+
+.reveal h1 {
+  font-size: 2em;
+  text-transform: none;
+}
+
+.reveal h2,
+.reveal h3,
+.reveal h4 {
+  text-transform: none;
+  font-size: 1.5em;
+}
+
+.hl {
+  --highlight-color: #e93c3c;
+  background-color: var(--highlight-color);
+  padding-right: 10px;
+  padding-left: 5px;
+  border: 1px solid var(--highlight-color);
+  border-radius: 10px;
+}
+
+/* Codeblock stuff */
+
+.reveal code,
+.reveal p code,
+code.sourceCode.yaml span {
+  --code-background-color: #413c3c;
+  --code-fu-kw-color: #e23f3f;
+
+  color: var(--code-fu-kw-color);
+  background-color: var(--code-background-color);
+  border: 1px solid var(--code-background-color);
+  border-radius: 5px;
+  padding: 0px 5px;
+}
+
+code.sourceCode.yaml span.kw {
+  color: rgb(32, 30, 30);
+}
+
+code.sourceCode.yaml span.dv,
+code.sourceCode.yaml span.st,
+code.sourceCode.yaml span.at,
+code.sourceCode.yaml span.fl {
+  color: #ccf1ec;
+}
+/* 
+.reference-page {
+  font-size: medium;
+  line-height: 200%;
+  text-align: justify;
+} */
+/* 
+#references div {
+  font-size: medium;
+  line-height: 200%;
+  text-align: justify;
+} */
+
+#refs {
+  font-size: 0.5em;
+  text-align: justify;
+}
+
+td {
+  font-size: 80%;
+}
+
+.container{
+  display: flex;
+}
+
+.col{
+  flex: 1;
+}
+
+</style>

@@ -1,0 +1,8 @@
+{
+  "tagPath": "",
+  "metadataPath": "",
+  "tagFile": "tags.json",
+  "metadataFile": "metadata.json",
+  "writingFrequency": "10",
+  "writeFilesOnLaunch": true
+}

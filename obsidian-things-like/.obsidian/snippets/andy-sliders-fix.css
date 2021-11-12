@@ -1,0 +1,11 @@
+/* Fix for Sliding Panes (Andy's Mode) plugin  */
+/* Prevents file icon in title from overlapping with 
+    stoplights when combined with Hider plugin */
+    
+.workspace-tab-header-container {
+    padding-top: 15px;
+}
+
+.hider-frameless .workspace-split.mod-root .view-header {
+    padding-top: 20px;
+}

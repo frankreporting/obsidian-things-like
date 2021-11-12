@@ -1,0 +1,290 @@
+/* WYSIWIG-like formatting
+
+Adapted from: 
+    - Santi Younger's Org-sidian-Bullets: https://github.com/santiyounger/Org-sidian-Bullets
+    - Ozan Tellioglu's oz-image-in-editor-obsidian: https://github.com/ozntel/oz-image-in-editor-obsidian
+    - ChezFrancois's Typora-like Custom CSS shared in Obsidian Forum
+
+Last Updated: 10/30/21 
+*/
+
+/* Headers */
+.markdown-preview-view h1, .cm-header-1 { font-size: 1.64rem; }
+.markdown-preview-view h2, .cm-header-2 { font-size: 1.33rem; }
+.markdown-preview-view h3, .cm-header-3 { font-size: 1.16rem; }
+.markdown-preview-view h4, .cm-header-4 { font-size: 1rem; }
+.markdown-preview-view h5, .cm-header-5 { font-size: 0.83rem; }
+.markdown-preview-view h6, .cm-header-6 { font-size: 0.64rem; }
+
+.markdown-preview-view h1, .hmd-fold-code-content.hmd-fold-code-dataview h1 { border-bottom: 2px solid; margin-top: 1.5em; }
+.markdown-preview-view h2, .hmd-fold-code-content.hmd-fold-code-dataview h2 { border-bottom: 1px solid; margin-top: 1.2em; }
+
+.cm-formatting-header-1 { font-size: 1.83rem; }
+.cm-formatting-header-2 { font-size: 1.44rem; }
+.cm-formatting-header-3 { font-size: 1.16rem; }
+.cm-formatting-header-4 { font-size: 1rem; }
+.cm-formatting-header-5 { font-size: 0.83rem; }
+.cm-formatting-header-6 { font-size: 0.64rem; }
+
+/* div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-header {
+  color: transparent !important;
+}
+
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-header::before {
+  display: inline-block !important;
+  white-space: nowrap;
+  word-wrap: none;
+  width:0;
+  overflow:visible;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+} */
+
+/* div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-header-1::before {
+  content: 'H1';
+}
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-header-2::before {
+  content: 'H2';
+}
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-header-3::before {
+  content: 'H3';
+}
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-header-4::before {
+  content: 'H4';
+}
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-header-5::before {
+  content: 'H5';
+}
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-header-6::before {
+  content: 'H6';
+} */
+
+/* H1 and H2 underlines */
+.HyperMD-header.HyperMD-header-1.CodeMirror-line {
+    border-bottom: 2px solid lightgray;
+    border-bottom: linear
+}
+
+.HyperMD-header.HyperMD-header-2.CodeMirror-line {
+    border-bottom: 1px solid lightgray;
+}
+
+/* --- HORIZONTAL RULES ---  */
+
+/* Hide --- if not active line */
+div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-hr {
+    color: transparent;
+}
+
+/* Render simple line */
+.CodeMirror-code > :not(.CodeMirror-activeline) .HyperMD-hr.CodeMirror-line {
+    height: 1px;
+    background: lightgray;
+    background: -webkit-gradient(linear, 0 0, 100% 1px, from(white), to(white), color-stop(0%, lightgray));
+}
+
+/* --- BLOCKQUOTES ---  */
+
+.cm-quote {
+    font-style: italic;
+}
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting.cm-formatting-quote,
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-hmd-indent-in-quote {
+  color: transparent !important;
+  display: inline !important;
+}
+div:not(.CodeMirror-activeline)>.HyperMD-quote {
+   /* border-left: 3px solid var(--text-selection);
+   border-color: var(--text-accent) !important; */
+   border-radius: 8px; /* 0 8px 8px 0; */
+   background-color: #fefffe; /* rgb(238, 234, 234); */
+   margin-left: 5px;
+   padding: 8px 18px 8px 8px;
+   display: inline-block;
+   width: 100%;
+}
+
+/* --- UNORDERED LISTS ---  */
+
+span.cm-formatting-list.cm-formatting-list-ul {
+  color: transparent !important;
+}
+
+.CodeMirror-activeline .cm-formatting.cm-formatting-list.cm-formatting-list-ul+.cm-list-1::before,
+.CodeMirror-activeline .cm-formatting.cm-formatting-list.cm-formatting-list-ul+.cm-list-2::before,
+.CodeMirror-activeline .cm-formatting.cm-formatting-list.cm-formatting-list-ul+.cm-list-3::before,
+.CodeMirror-activeline .cm-formatting.cm-formatting-list.cm-formatting-list-ul+.cm-list-4::before,
+.CodeMirror-activeline .cm-formatting.cm-formatting-list.cm-formatting-list-ul+.cm-list-5::before,
+.CodeMirror-activeline .cm-formatting.cm-formatting-list.cm-formatting-list-ul+.cm-list-6::before,
+.cm-hmd-list-indent.cm-hmd-list-indent-1, .cm-hmd-list-indent.cm-hmd-list-indent-2,
+.cm-hmd-list-indent.cm-hmd-list-indent-3, .cm-hmd-list-indent.cm-hmd-list-indent-4,
+.cm-hmd-list-indent.cm-hmd-list-indent-5, .cm-hmd-list-indent.cm-hmd-list-indent-6 { 
+  display: none !important;
+}
+
+.HyperMD-list-line.HyperMD-list-line-1.CodeMirror-line::before,
+.HyperMD-list-line.HyperMD-list-line-4.CodeMirror-line::before { 
+  content: "•";
+}
+
+.HyperMD-list-line.HyperMD-list-line-2.CodeMirror-line::before,
+.HyperMD-list-line.HyperMD-list-line-5.CodeMirror-line::before {
+  content: "◦";
+}
+
+.HyperMD-list-line.HyperMD-list-line-3.CodeMirror-line::before,
+.HyperMD-list-line.HyperMD-list-line-6.CodeMirror-line::before {
+  content: "‣";
+}
+
+.HyperMD-list-line::before {
+  font-size: 1.5em;
+  line-height: 0.8em;
+}
+
+.HyperMD-list-line.HyperMD-list-line-1.CodeMirror-line {
+  padding-left: 1.8em !important;
+  text-indent: -3.8em !important;
+}
+.HyperMD-list-line.HyperMD-list-line-2.CodeMirror-line {
+  padding-left: 3.8em !important;
+  text-indent: -4.7em !important;
+}
+.HyperMD-list-line.HyperMD-list-line-3.CodeMirror-line {
+  padding-left: 5.8em !important;
+  text-indent: -5.6em !important;
+}
+.HyperMD-list-line.HyperMD-list-line-4.CodeMirror-line {
+  padding-left: 7.8em !important;
+  text-indent: -6.5em !important;
+}
+.HyperMD-list-line.HyperMD-list-line-5.CodeMirror-line {
+  padding-left: 9.8em !important;
+  text-indent: -7.4em !important;
+}
+.HyperMD-list-line.HyperMD-list-line-6.CodeMirror-line {
+  padding-left: 11.8em !important;
+  text-indent: -8.3em !important;
+}
+
+.HyperMD-list-line.HyperMD-list-line-1.CodeMirror-line::before { 
+  margin-left: 1.6em;
+}
+
+.HyperMD-list-line.HyperMD-list-line-2.CodeMirror-line::before {
+  margin-left: 2.2em;
+}
+
+.HyperMD-list-line.HyperMD-list-line-3.CodeMirror-line::before {
+  margin-left: 2.8em;
+}
+
+.HyperMD-list-line.HyperMD-list-line-4.CodeMirror-line::before {
+  margin-left: 3.4em;
+}
+
+.HyperMD-list-line.HyperMD-list-line-5.CodeMirror-line::before {
+  margin-left: 4em;
+}
+
+.HyperMD-list-line.HyperMD-list-line-6.CodeMirror-line::before {
+  margin-left: 4.6em;
+}
+
+/* --- TASKS ---  */
+
+.cm-formatting-task.cm-meta,
+.cm-formatting-task.cm-property {
+  font-size: 1.5em;
+}
+
+.CodeMirror-code > :not(.CodeMirror-activeline) .cm-formatting-task.cm-meta,
+.CodeMirror-code > :not(.CodeMirror-activeline) .cm-formatting-task.cm-property {
+    display:inline !important;
+    color: transparent;
+    margin-left: -1.4em;
+    line-height: 1.1em;
+}
+.CodeMirror-code > .CodeMirror-activeline .cm-formatting-task.cm-meta,
+.CodeMirror-code > .CodeMirror-activeline .cm-formatting-task.cm-property {
+    display:inline !important;
+    color: transparent;
+    margin-left: -1.4em;
+    line-height: 1.1em;
+}
+
+.CodeMirror-line span.cm-formatting-task.cm-meta::after,
+.CodeMirror-line span.cm-formatting-task.cm-property:after {
+  margin-right: 0.2em;
+  color:rgb(124, 131, 124);
+  vertical-align: middle;
+}
+
+/* incomplete task */
+.CodeMirror-line span.cm-formatting-task.cm-meta::after {
+  content: " ⃝";
+  cursor: pointer;
+}
+
+/* completed task */
+.CodeMirror-line span.cm-formatting-task.cm-property:after {
+    content: "✓⃝";
+    cursor: pointer;
+}
+span.cm-formatting-task.cm-property ~ span,
+.markdown-preview-view ul > li.task-list-item.is-checked {
+  text-decoration: line-through;
+  color: rgb(124, 131, 124) !important;
+}
+
+/* --- HIGHLIGHTS ---  */
+
+/* hide == if not active line */
+/* div:not(.CodeMirror-activeline) > .CodeMirror-line .cm-formatting-highlight.cm-highlight {
+    font-size: 0;
+   } */
+
+/* --- BOLD ---  */
+
+/* Hide ** if not active line */
+/* div:not(.CodeMirror-activeline) > 
+.CodeMirror-line span.cm-formatting.cm-formatting-strong.cm-strong {
+    display:none;
+} */
+
+/* --- ITALIC ---  */
+
+/* Hide * if not active line */
+/* div:not(.CodeMirror-activeline) >
+.CodeMirror-line span.cm-formatting.cm-formatting-em.cm-em {
+    display:none;
+} */
+
+/* --- LINKS ---  */
+/* div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-string.cm-url {
+  visibility: hidden;
+  /* display: none; */
+  /* font-size: 0; */
+  /* position: absolute;
+}  */
+
+/* div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-list.cm-formatting-list-ul {
+  visibility: visible !important;
+} */
+
+/* div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-link-string.cm-string.cm-url::after {
+  content: "(🔗)";
+  /* font-size: 1em !important; 
+  visibility: visible;
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+} */
+
+/* div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-string.cm-url {
+  font-size: 0em;
+}
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting.cm-formatting-link-string.cm-string.cm-url::after {
+  content: "(🔗)";
+  font-size: 1em !important;
+} */

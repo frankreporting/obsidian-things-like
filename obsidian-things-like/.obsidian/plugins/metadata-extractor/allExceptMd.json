@@ -1,0 +1,189 @@
+{
+  "folders": [
+    {
+      "name": "",
+      "relativePath": "/"
+    },
+    {
+      "name": "00_Meta",
+      "relativePath": "00_Meta"
+    },
+    {
+      "name": "10_Work",
+      "relativePath": "10_Work"
+    },
+    {
+      "name": "20_Personal",
+      "relativePath": "20_Personal"
+    },
+    {
+      "name": "40_Productivity",
+      "relativePath": "40_Productivity"
+    },
+    {
+      "name": "50_Creative",
+      "relativePath": "50_Creative"
+    },
+    {
+      "name": "60_Learning",
+      "relativePath": "60_Learning"
+    },
+    {
+      "name": "70_Recreation",
+      "relativePath": "70_Recreation"
+    },
+    {
+      "name": "80_PKM",
+      "relativePath": "80_PKM"
+    },
+    {
+      "name": "90_Archive",
+      "relativePath": "90_Archive"
+    },
+    {
+      "name": "_README",
+      "relativePath": "_README"
+    },
+    {
+      "name": "🏠",
+      "relativePath": "🏠"
+    },
+    {
+      "name": "01_Templates",
+      "relativePath": "00_Meta/01_Templates"
+    },
+    {
+      "name": "02_Pandoc",
+      "relativePath": "00_Meta/02_Pandoc"
+    },
+    {
+      "name": "03_Attachments",
+      "relativePath": "00_Meta/03_Attachments"
+    },
+    {
+      "name": "04_Zotero",
+      "relativePath": "00_Meta/04_Zotero"
+    },
+    {
+      "name": "05_Inbox",
+      "relativePath": "00_Meta/05_Inbox"
+    },
+    {
+      "name": "06_Logbook",
+      "relativePath": "00_Meta/06_Logbook"
+    },
+    {
+      "name": "07_Scripts",
+      "relativePath": "00_Meta/07_Scripts"
+    },
+    {
+      "name": "08_QuickAdd",
+      "relativePath": "00_Meta/08_QuickAdd"
+    },
+    {
+      "name": "11_EmployerName",
+      "relativePath": "10_Work/11_EmployerName"
+    },
+    {
+      "name": "21_Auto",
+      "relativePath": "20_Personal/21_Auto"
+    },
+    {
+      "name": "22_Recipes",
+      "relativePath": "20_Personal/22_Recipes"
+    },
+    {
+      "name": "23_Career",
+      "relativePath": "20_Personal/23_Career"
+    },
+    {
+      "name": "24_Finances",
+      "relativePath": "20_Personal/24_Finances"
+    },
+    {
+      "name": "25_Family",
+      "relativePath": "20_Personal/25_Family"
+    },
+    {
+      "name": "26_Health",
+      "relativePath": "20_Personal/26_Health"
+    },
+    {
+      "name": "61_Classes",
+      "relativePath": "60_Learning/61_Classes"
+    },
+    {
+      "name": "27_Home",
+      "relativePath": "20_Personal/27_Home"
+    },
+    {
+      "name": "81_Notes",
+      "relativePath": "80_PKM/81_Notes"
+    },
+    {
+      "name": "82_Sources",
+      "relativePath": "80_PKM/82_Sources"
+    },
+    {
+      "name": "83_Subjects",
+      "relativePath": "80_PKM/83_Subjects"
+    },
+    {
+      "name": "85_People",
+      "relativePath": "80_PKM/85_People"
+    },
+    {
+      "name": "84_Entities",
+      "relativePath": "80_PKM/84_Entities"
+    },
+    {
+      "name": "1st Project",
+      "relativePath": "10_Work/11_EmployerName/1st Project"
+    },
+    {
+      "name": "Another Big Thing To Work On",
+      "relativePath": "10_Work/11_EmployerName/Another Big Thing To Work On"
+    },
+    {
+      "name": "Subproject 1",
+      "relativePath": "10_Work/11_EmployerName/1st Project/Subproject 1"
+    }
+  ],
+  "nonMdFiles": [
+    {
+      "name": "custom-styles.css",
+      "basename": "custom-styles",
+      "relativePath": "00_Meta/02_Pandoc/custom-styles.css"
+    },
+    {
+      "name": "dvTasks.js",
+      "basename": "dvTasks",
+      "relativePath": "00_Meta/07_Scripts/dvTasks.js"
+    },
+    {
+      "name": "markTask.js",
+      "basename": "markTask",
+      "relativePath": "00_Meta/07_Scripts/markTask.js"
+    },
+    {
+      "name": "QuickAdd.js",
+      "basename": "QuickAdd",
+      "relativePath": "00_Meta/08_QuickAdd/QuickAdd.js"
+    },
+    {
+      "name": "markCompleted-backup.js",
+      "basename": "markCompleted-backup",
+      "relativePath": "00_Meta/08_QuickAdd/markCompleted-backup.js"
+    },
+    {
+      "name": "markCompleted.js",
+      "basename": "markCompleted",
+      "relativePath": "00_Meta/08_QuickAdd/markCompleted.js"
+    },
+    {
+      "name": "mobileTest.js",
+      "basename": "mobileTest",
+      "relativePath": "00_Meta/08_QuickAdd/mobileTest.js"
+    }
+  ]
+}

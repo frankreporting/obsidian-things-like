@@ -1,0 +1,6 @@
+/* Get a plain white background for the minimal light theme.
+    Helps for publishing and copy/paste of rich text. */
+
+.modal .vertical-tab-nav-item {
+    font-size: 14px;
+}

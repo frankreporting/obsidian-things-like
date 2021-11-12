@@ -1,0 +1,159 @@
+/* Typora-like Custom CSS */
+/* ChezFrancois shared on Obsidian Forum */
+/* updated */
+/* 7/16/21 */
+
+/* inline formatting, link targets and [[ ]] disappears if not active line*/
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting,
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-string.cm-url,
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-link,
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-link:not(.cm-link),
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-hmd-barelink,
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-comment
+{ display: none; }
+
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-tag {
+  display: none !important;
+} 
+
+/* hide all html tags -- IT IS COMMENTED OUT BY DEFAULT */
+/* div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-tag{ display: none; } */
+
+
+/* except list markers */ span.cm-formatting-list,
+/*code block backticks */ span.cm-formatting-code-block.cm-hmd-codeblock,
+
+/* and task checkboxes */
+/*span.cm-formatting-task { display: inline !important; font-family: monospace; }
+
+/* Checkboxes instead of brackets in edit mode */
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-task.cm-meta,
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-task.cm-property {
+    color: transparent;
+    position: relative;
+    display: inline !important;
+    margin-right: -0.1rem;
+}
+
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-task.cm-meta:after,
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-task.cm-property:after {
+    content: "○";
+    position: absolute;
+    top: 3px;
+    left: 0px;
+    color: rgb(219, 95, 12);
+    font-size: 18px;
+}
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-task.cm-property:after {
+  content: "✓";
+  color: rgb(124, 131, 124) !important;
+}
+span.cm-formatting-task.cm-property ~ span {
+  text-decoration: line-through;
+  color: rgb(124, 131, 124) !important;
+}
+
+/* except image markdown */
+.CodeMirror-line span.cm-formatting.cm-formatting-image.cm-image.cm-image-alt-text.cm-link,
+.CodeMirror-line span.cm-formatting.cm-formatting-image.cm-image.cm-image-marker {
+  display: inline !important;
+}
+
+/* Change links color */
+.cm-s-obsidian span.cm-link, .cm-s-obsidian span.cm-hmd-internal-link {
+    color: rgb(15, 112, 223);
+    text-decoration: underline;
+  }
+
+/* Editor Mode Tables */
+.CodeMirror pre.HyperMD-table-row {
+    font-family: var(--font-monospace);
+    font-size: calc(var(--font-normal) - 1px);
+  }
+
+/* Tables */
+
+.markdown-preview-view th {
+    font-weight: var(--bold-weight);
+    text-align: left;
+    border-top: none;
+  }
+  .markdown-preview-view th:last-child,
+  .markdown-preview-view td:last-child {
+    border-right: none;
+  }
+  .markdown-preview-view th:first-child,
+  .markdown-preview-view td:first-child {
+    border-left: none;
+    padding-left: 0;
+  }
+  .markdown-preview-view tr:last-child td {
+    border-bottom: none;
+  }
+
+  /* Blockquote: in edit mode with left border rendered instead of > */
+  div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting.cm-formatting-quote,
+  div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-hmd-indent-in-quote {
+    display: inline !important;
+    color: transparent !important;
+  }
+  
+  div:not(.CodeMirror-activeline)>.HyperMD-quote {
+      background-color:rgb(238, 234, 234);
+      border-left: 3px solid var(--text-selection);
+      border-color: rgba(255, 0, 0, 0.589) !important; 
+      border-radius: 0 8px 8px 0;
+      font-size: 17px;
+      line-height: 1.5em;
+      margin-left: 5px;
+      padding: 8px 18px 8px 8px; /* Haut, Droite, Bas, Gauche */
+      display: inline-block;
+  }
+
+  /* Tag pills in edit mode */
+   div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-hashtag-end:before {
+    content: '';
+  }
+  .tag, div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-hashtag-end {
+  background-color: rgb(30, 123, 177); /* was var(--text-accent); */
+  border: none;
+  color: white !important;
+  font-size: 14px;
+  padding: 2px 8px;
+  padding-top: -2px;
+  padding-bottom: 3px;
+  text-align: center;
+  /*text-decoration: underline;
+  /*text-decoration: none !important;*/
+  display: inline-block;
+  margin: 1px 1px;
+  cursor: pointer;
+  border-radius: 7px;
+  }
+  .tag:hover {
+  color: white;
+  background-color: var(--text-accent-hover);
+  }
+
+/* Horizontal line in edit mode. Changes --- to full-width line */
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-hr {
+  color: transparent;
+}
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-hr::after {
+  content: "";
+  position: absolute;
+  background: rgb(102, 101, 101);
+  height: 1px;
+  width: 100%;
+  left: 0;
+  top: 50%;
+}
+
+/* some space above titles */
+span.cm-header {
+  margin-top: 6px;
+  display: inline-block;
+}
+span.cm-header.cm-header-5, span.cm-header.cm-header-6 {
+  margin-top: 3px;
+}
