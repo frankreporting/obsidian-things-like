@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_README/readme.md",
+            "file": "🏠/☀️ Today.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_README/readme.md",
+                "file": "🏠/☀️ Today.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +85,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_README/readme.md",
+                "file": "🏠/☀️ Today.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_README/readme.md"
+                "file": "🏠/☀️ Today.md"
               }
             }
           }
@@ -121,6 +121,7 @@
   },
   "active": "3753988f8dcaa638",
   "lastOpenFiles": [
+    "🏠/☀️ Today.md",
     "_README/readme.md",
     "10_Work/11_EmployerName/1st Project/1st Project.md",
     "10_Work/11_EmployerName/_Employer Name.md",
@@ -129,7 +130,6 @@
     "20_Personal/22_Recipes/202001252153 Cracker Barrel Buttermilk Pancakes Recipe.md",
     "20_Personal/22_Recipes/202001181200 Bull jowl.md",
     "20_Personal/22_Recipes/202001181159 Rosslyns sauted shrimp.md",
-    "20_Personal/22_Recipes/201910021259 How to Make Sourdough Bread.md",
-    "20_Personal/22_Recipes/201812151334 Trinidad stewed beef and dumplings.md"
+    "20_Personal/22_Recipes/201910021259 How to Make Sourdough Bread.md"
   ]
 }

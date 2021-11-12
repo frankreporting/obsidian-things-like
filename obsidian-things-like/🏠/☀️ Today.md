@@ -11,8 +11,8 @@ Here is some extra copy to **edit**.
 title: Updates needed
 collapse: true
 
-- [ ] Clone vault to create development environment
-  - [ ] Create GitHub repo to start working in a saner, safer way, testing all changes before applying to my main vault
+- [x] Clone vault to create development environment
+  - [x] Create GitHub repo to start working in a saner, safer way, testing all changes before applying to my main vault
 - [ ] Consolidate DV scripts into DvTasks.js for all nav pages, daily note template, etc.
 - [ ] Update mobile css to fix checkbox layout
 - [ ] Update project/area pages with relevant DV scripts
