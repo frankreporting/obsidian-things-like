@@ -26,20 +26,6 @@
     ]
   },
   {
-    "tag": "moc",
-    "tagCount": 1,
-    "relativePaths": [
-      "80_PKM/83_Subjects/My PKM Process and Symbols Reference.md"
-    ]
-  },
-  {
-    "tag": "subject",
-    "tagCount": 1,
-    "relativePaths": [
-      "80_PKM/83_Subjects/My PKM Process and Symbols Reference.md"
-    ]
-  },
-  {
     "tag": "fear",
     "tagCount": 1,
     "relativePaths": [
@@ -68,13 +54,37 @@
     ]
   },
   {
+    "tag": "task",
+    "tagCount": 6,
+    "relativePaths": [
+      "60_Learning/New project/Something to do in the new project.md",
+      "60_Learning/Repeating task.md",
+      "20_Personal/Here is a test task.md",
+      "10_Work/11_EmployerName/This is a new task.md",
+      "10_Work/11_EmployerName/New thing to do.md",
+      "10_Work/11_EmployerName/Another Big Thing To Work On/Something very important.md"
+    ]
+  },
+  {
+    "tag": "project",
+    "tagCount": 6,
+    "relativePaths": [
+      "60_Learning/New project/_New project.md",
+      "10_Work/11_EmployerName/Another Big Thing To Work On/_Another Big Thing To Work On.md",
+      "10_Work/11_EmployerName/1st Project/Subproject 1/_Subproject 1.md",
+      "10_Work/11_EmployerName/1st Project/1st Project.md",
+      "00_Meta/01_Templates/Task.md",
+      "00_Meta/01_Templates/Area or Project.md"
+    ]
+  },
+  {
     "tag": "recipes",
     "tagCount": 5,
     "relativePaths": [
-      "20_Personal/22_Recipes/201910021259 How to Make Sourdough Bread.md",
       "20_Personal/22_Recipes/202001252153 Cracker Barrel Buttermilk Pancakes Recipe.md",
       "20_Personal/22_Recipes/202001181200 Bull jowl.md",
       "20_Personal/22_Recipes/202001181159 Rosslyns sauted shrimp.md",
+      "20_Personal/22_Recipes/201910021259 How to Make Sourdough Bread.md",
       "20_Personal/22_Recipes/201812151334 Trinidad stewed beef and dumplings.md"
     ]
   },
@@ -86,13 +96,10 @@
     ]
   },
   {
-    "tag": "project",
-    "tagCount": 4,
+    "tag": "log",
+    "tagCount": 1,
     "relativePaths": [
-      "10_Work/11_EmployerName/Another Big Thing To Work On/_Another Big Thing To Work On.md",
-      "10_Work/11_EmployerName/1st Project/Subproject 1/_Subproject 1.md",
-      "10_Work/11_EmployerName/1st Project/1st Project.md",
-      "00_Meta/01_Templates/Task.md"
+      "00_Meta/06_Logbook/2021-11-30 Important Meeting.md"
     ]
   }
 ]

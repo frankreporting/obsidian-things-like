@@ -6,7 +6,6 @@
   "obsidian-auto-link-title",
   "better-word-count",
   "calendar",
-  "obsidian-citation-plugin",
   "dataview",
   "obsidian-footnotes",
   "hotkeysplus-obsidian",
@@ -36,5 +35,7 @@
   "cm-show-whitespace-obsidian",
   "advanced-cursors",
   "obsidian-focus-mode",
-  "obsidian-hider"
+  "obsidian-hider",
+  "obsidian-outliner",
+  "obsidian-codemirror-options"
 ]

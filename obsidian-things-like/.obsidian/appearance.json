@@ -1,6 +1,6 @@
 {
   "baseFontSize": 16,
-  "cssTheme": "",
+  "cssTheme": "Minimal",
   "theme": "obsidian",
   "translucency": false,
   "enabledCssSnippets": [
@@ -8,6 +8,7 @@
     "wysi-bullets",
     "minimal-theme-link-fix",
     "focus-mode-fix",
-    "settings-sidebar-font-fix"
+    "DvTasks",
+    "WYSIWYG-like"
   ]
 }

@@ -5,19 +5,19 @@ Adapted from:
     - Ozan Tellioglu's oz-image-in-editor-obsidian: https://github.com/ozntel/oz-image-in-editor-obsidian
     - ChezFrancois's Typora-like Custom CSS shared in Obsidian Forum
 
-Last Updated: 10/30/21 
+Last Updated: 11/30/21 
 */
 
 /* Headers */
-.markdown-preview-view h1, .cm-header-1 { font-size: 1.64rem; }
-.markdown-preview-view h2, .cm-header-2 { font-size: 1.33rem; }
-.markdown-preview-view h3, .cm-header-3 { font-size: 1.16rem; }
-.markdown-preview-view h4, .cm-header-4 { font-size: 1rem; }
-.markdown-preview-view h5, .cm-header-5 { font-size: 0.83rem; }
-.markdown-preview-view h6, .cm-header-6 { font-size: 0.64rem; }
+.markdown-preview-view h1, .hmd-fold-code-content.hmd-fold-code-dataview h1, .cm-header-1, .cm-s-obsidian .cm-header-1 { font-size: 1.64rem; }
+.markdown-preview-view h2, .hmd-fold-code-content.hmd-fold-code-dataview h2, .cm-header-2, .cm-s-obsidian .cm-header-2 { font-size: 1.33rem; }
+.markdown-preview-view h3, .hmd-fold-code-content.hmd-fold-code-dataview h3, .cm-header-3, .cm-s-obsidian .cm-header-3 { font-size: 1.16rem; }
+.markdown-preview-view h4, .hmd-fold-code-content.hmd-fold-code-dataview h4, .cm-header-4, .cm-s-obsidian .cm-header-4 { font-size: 1rem; }
+.markdown-preview-view h5, .hmd-fold-code-content.hmd-fold-code-dataview h5, .cm-header-5, .cm-s-obsidian .cm-header-5 { font-size: 0.83rem; }
+.markdown-preview-view h6, .hmd-fold-code-content.hmd-fold-code-dataview h6, .cm-header-6, .cm-s-obsidian .cm-header-6 { font-size: 0.64rem; }
 
-.markdown-preview-view h1, .hmd-fold-code-content.hmd-fold-code-dataview h1 { border-bottom: 2px solid; margin-top: 1.5em; }
-.markdown-preview-view h2, .hmd-fold-code-content.hmd-fold-code-dataview h2 { border-bottom: 1px solid; margin-top: 1.2em; }
+.markdown-preview-view h1, .hmd-fold-code-content.hmd-fold-code-dataview h1 { border-bottom: 2px solid; line-height: 1.1em; margin-top: 0.8em; padding-bottom: 0.2em;}
+.markdown-preview-view h2, .hmd-fold-code-content.hmd-fold-code-dataview h2 { border-bottom: 1px solid; line-height: 1em;}
 
 .cm-formatting-header-1 { font-size: 1.83rem; }
 .cm-formatting-header-2 { font-size: 1.44rem; }

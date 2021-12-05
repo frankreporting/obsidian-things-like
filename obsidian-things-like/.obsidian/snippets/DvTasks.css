@@ -1,0 +1,147 @@
+/* Formatting to support DvTasks */
+
+.task-group {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+.is-mobile .markdown-preview-view ul.task-group, 
+.is-mobile .markdown-preview-view ol.task-group {
+  padding-inline-start: 0;
+}
+
+.task-flexbox {
+  margin: 10px 0;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 7px;
+  justify-content: flex-start;
+  align-items: center;
+  line-height: 1.2em;
+}
+
+.task-flexbox a {
+  display: flex;
+  flex: 1 1 auto;
+  gap: 10px;
+}
+
+.task-flexbox a,
+h2 a {
+  color: var(--text-normal);
+}
+
+.task-flexbox a:hover {
+  color: var(--text-accent-hover);
+}
+
+.task-list-item.dv-check,
+.task-list-item.dv-project { 
+  display: flex;
+  height: 18px;
+	width: 18px;
+	cursor: pointer;
+  flex: 0 0 auto;
+}
+
+.task-list-item.dv-check.in-note,
+.task-list-item.dv-project.in-note { 
+  height: 1.5em;
+	width: 1.5em;
+}
+
+.task-list-item.dv-check {
+  border: 2px solid var(--background-modifier-border-hover);
+}
+
+.task-list-item.dv-project { 
+  border: 3px solid red;
+}
+
+.task-list-item.dv-project.in-note {
+  border: 4px solid red;
+}
+
+.checklist-plugin-main .group .compact > .toggle .checked, input[type=checkbox]:checked.task-list-item.dv-project {
+  background-color: red !important;
+  border: red !important;
+  background-image: none;
+}
+
+.task-list-item.dv-label {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.task-list-item.dv-label.dv-checked {
+  text-decoration: line-through;
+	font-size: var(--font-normal);
+}
+
+.task-list-item.dv-label.dv-checked .internal-link {
+  color: #777;
+}
+
+.datetime-pill,
+.datetime-pill-completed,
+.datetime-pill-due,
+.datetime-pill-overdue,
+.datetime-pill-start,
+.datetime-pill-event {
+  flex: 0 1 auto;
+  justify-self:flex-start;
+  white-space: nowrap;
+}
+
+.datetime-pill-due,
+.datetime-pill-overdue {
+  font-size: 0.9em;
+}
+
+.datetime-pill,
+.datetime-pill-start,
+.datetime-pill-completed,
+.datetime-pill-event {
+  background-color: #ddd;
+  color: #666;
+  border-radius:10px;
+  font-size:0.7em;
+  margin: auto 0;
+}
+
+.datetime-pill,
+.datetime-pill-completed,
+.datetime-pill-event {
+  padding:4px 5px;
+}
+
+.datetime-pill-start {
+  padding:0 5px;
+}
+
+.datetime-pill-start,
+.datetime-pill-event {
+  margin-right: 8px;
+}
+
+.datetime-pill-due,
+.datetime-pill-overdue,
+.datetime-pill-completed {
+  text-align: right;
+}
+
+.datetime-pill-due {
+  color: #666;
+}
+
+.datetime-pill-due::before {
+  content: "⚑";
+}
+
+.datetime-pill-overdue {
+  color: red;
+}
+
+.datetime-pill-overdue::before {
+  content: "❗️";
+}

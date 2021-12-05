@@ -45,8 +45,8 @@
       "relativePath": "_README"
     },
     {
-      "name": "🏠",
-      "relativePath": "🏠"
+      "name": "✔️",
+      "relativePath": "✔️"
     },
     {
       "name": "01_Templates",
@@ -109,12 +109,12 @@
       "relativePath": "20_Personal/26_Health"
     },
     {
-      "name": "61_Classes",
-      "relativePath": "60_Learning/61_Classes"
-    },
-    {
       "name": "27_Home",
       "relativePath": "20_Personal/27_Home"
+    },
+    {
+      "name": "61_Classes",
+      "relativePath": "60_Learning/61_Classes"
     },
     {
       "name": "81_Notes",
@@ -129,12 +129,12 @@
       "relativePath": "80_PKM/83_Subjects"
     },
     {
-      "name": "85_People",
-      "relativePath": "80_PKM/85_People"
-    },
-    {
       "name": "84_Entities",
       "relativePath": "80_PKM/84_Entities"
+    },
+    {
+      "name": "85_People",
+      "relativePath": "80_PKM/85_People"
     },
     {
       "name": "1st Project",
@@ -147,6 +147,10 @@
     {
       "name": "Subproject 1",
       "relativePath": "10_Work/11_EmployerName/1st Project/Subproject 1"
+    },
+    {
+      "name": "New project",
+      "relativePath": "60_Learning/New project"
     }
   ],
   "nonMdFiles": [
@@ -166,24 +170,9 @@
       "relativePath": "00_Meta/07_Scripts/markTask.js"
     },
     {
-      "name": "QuickAdd.js",
-      "basename": "QuickAdd",
-      "relativePath": "00_Meta/08_QuickAdd/QuickAdd.js"
-    },
-    {
-      "name": "markCompleted-backup.js",
-      "basename": "markCompleted-backup",
-      "relativePath": "00_Meta/08_QuickAdd/markCompleted-backup.js"
-    },
-    {
       "name": "markCompleted.js",
       "basename": "markCompleted",
       "relativePath": "00_Meta/08_QuickAdd/markCompleted.js"
-    },
-    {
-      "name": "mobileTest.js",
-      "basename": "mobileTest",
-      "relativePath": "00_Meta/08_QuickAdd/mobileTest.js"
     }
   ]
 }

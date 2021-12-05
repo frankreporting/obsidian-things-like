@@ -7,12 +7,14 @@ tR+="---\n"
 tR+="alias: " + displayDate("M/D/YY dddd") + "\n"
 tR+="---\n"
 tR+="# " + displayDate("dddd, MMMM D, YYYY")
+tR+="\n"
+tp.file.cursor(0)
 %>
-
-<% tp.file.cursor(0) %>
 
 # Log
 ```dataviewjs
 const {DvTasks} = customJS
-DvTasks.dailyLog({app, dv, luxon, that:this})
+const {MarkTask} = customJS
+
+DvTasks.dailyLog({app, dv, moment, luxon, that:this, markComplete:MarkTask.complete})
 ```

@@ -1,7 +1,46 @@
 [
   {
+    "fileName": "🔄 Repeating",
+    "relativePath": "✔️/🔄 Repeating.md",
+    "headings": [
+      {
+        "heading": "🔁 Repeating tasks",
+        "level": 1
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Raw dataview scripts for project management (old)",
+        "link": "🔄 Repeating",
+        "relativePath": "40_Productivity/Raw dataview scripts for project management (old).md"
+      }
+    ]
+  },
+  {
+    "fileName": "📥 Inbox",
+    "relativePath": "✔️/📥 Inbox.md",
+    "backlinks": [
+      {
+        "fileName": "Raw dataview scripts for project management (old)",
+        "link": "📥 Inbox",
+        "relativePath": "40_Productivity/Raw dataview scripts for project management (old).md"
+      }
+    ]
+  },
+  {
+    "fileName": "📔 Logbook",
+    "relativePath": "✔️/📔 Logbook.md",
+    "backlinks": [
+      {
+        "fileName": "Raw dataview scripts for project management (old)",
+        "link": "📔 Logbook",
+        "relativePath": "40_Productivity/Raw dataview scripts for project management (old).md"
+      }
+    ]
+  },
+  {
     "fileName": "📅 Upcoming",
-    "relativePath": "🏠/📅 Upcoming.md",
+    "relativePath": "✔️/📅 Upcoming.md",
     "headings": [
       {
         "heading": "📅 Upcoming",
@@ -10,64 +49,15 @@
     ],
     "backlinks": [
       {
-        "fileName": "🎛 Dashboard",
+        "fileName": "Raw dataview scripts for project management (old)",
         "link": "📅 Upcoming",
-        "relativePath": "🏠/🎛 Dashboard.md"
-      },
-      {
-        "fileName": "Raw dataview scripts for project management",
-        "link": "📅 Upcoming",
-        "relativePath": "40_Productivity/Raw dataview scripts for project management.md"
-      }
-    ]
-  },
-  {
-    "fileName": "🔄 Repeating",
-    "relativePath": "🏠/🔄 Repeating.md",
-    "headings": [
-      {
-        "heading": "Repeating tasks",
-        "level": 1
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "🎛 Dashboard",
-        "link": "🔄 Repeating",
-        "relativePath": "🏠/🎛 Dashboard.md"
-      },
-      {
-        "fileName": "Raw dataview scripts for project management",
-        "link": "🔄 Repeating",
-        "relativePath": "40_Productivity/Raw dataview scripts for project management.md"
+        "relativePath": "40_Productivity/Raw dataview scripts for project management (old).md"
       }
     ]
   },
   {
     "fileName": "🎛 Dashboard",
-    "relativePath": "🏠/🎛 Dashboard.md",
-    "links": [
-      {
-        "link": "📥 Inbox",
-        "relativePath": "🏠/📥 Inbox.md"
-      },
-      {
-        "link": "☀️ Today",
-        "relativePath": "🏠/☀️ Today.md"
-      },
-      {
-        "link": "📅 Upcoming",
-        "relativePath": "🏠/📅 Upcoming.md"
-      },
-      {
-        "link": "🔄 Repeating",
-        "relativePath": "🏠/🔄 Repeating.md"
-      },
-      {
-        "link": "📔 Logbook",
-        "relativePath": "🏠/📔 Logbook.md"
-      }
-    ],
+    "relativePath": "✔️/🎛 Dashboard.md",
     "backlinks": [
       {
         "fileName": "_Archive",
@@ -79,7 +69,7 @@
         "fileName": "_PKM",
         "link": "🎛 Dashboard",
         "relativePath": "80_PKM/_PKM.md",
-        "displayText": "⤴️"
+        "displayText": "⤴️ Dashboard"
       },
       {
         "fileName": "_Learning",
@@ -114,62 +104,23 @@
     ]
   },
   {
-    "fileName": "📥 Inbox",
-    "relativePath": "🏠/📥 Inbox.md",
+    "fileName": "❓ Anytime",
+    "relativePath": "✔️/❓ Anytime.md",
     "headings": [
       {
-        "heading": "📥 Inbox",
+        "heading": "❓ Anytime",
         "level": 1
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "🎛 Dashboard",
-        "link": "📥 Inbox",
-        "relativePath": "🏠/🎛 Dashboard.md"
-      },
-      {
-        "fileName": "Raw dataview scripts for project management",
-        "link": "📥 Inbox",
-        "relativePath": "40_Productivity/Raw dataview scripts for project management.md"
-      }
-    ]
-  },
-  {
-    "fileName": "📔 Logbook",
-    "relativePath": "🏠/📔 Logbook.md",
-    "headings": [
-      {
-        "heading": "📔 Logbook",
-        "level": 1
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "🎛 Dashboard",
-        "link": "📔 Logbook",
-        "relativePath": "🏠/🎛 Dashboard.md"
-      },
-      {
-        "fileName": "Raw dataview scripts for project management",
-        "link": "📔 Logbook",
-        "relativePath": "40_Productivity/Raw dataview scripts for project management.md"
       }
     ]
   },
   {
     "fileName": "☀️ Today",
-    "relativePath": "🏠/☀️ Today.md",
+    "relativePath": "✔️/☀️ Today.md",
     "backlinks": [
       {
-        "fileName": "🎛 Dashboard",
+        "fileName": "Raw dataview scripts for project management (old)",
         "link": "☀️ Today",
-        "relativePath": "🏠/🎛 Dashboard.md"
-      },
-      {
-        "fileName": "Raw dataview scripts for project management",
-        "link": "☀️ Today",
-        "relativePath": "40_Productivity/Raw dataview scripts for project management.md"
+        "relativePath": "40_Productivity/Raw dataview scripts for project management (old).md"
       }
     ]
   },
@@ -178,8 +129,12 @@
     "relativePath": "_README/readme.md",
     "headings": [
       {
-        "heading": "This is a demo vault to showcase one approach to project and task management using Obsidian and the Dataview plugin",
+        "heading": "Obsidian \"Things\"-like",
         "level": 1
+      },
+      {
+        "heading": "Why?",
+        "level": 2
       },
       {
         "heading": "Plugins Required:",
@@ -216,11 +171,71 @@
     "aliases": [
       "🗃 Archive"
     ],
+    "headings": [
+      {
+        "heading": "Archive",
+        "level": 1
+      }
+    ],
     "links": [
       {
         "link": "🎛 Dashboard",
-        "relativePath": "🏠/🎛 Dashboard.md",
+        "relativePath": "✔️/🎛 Dashboard.md",
         "displayText": "Dashboard"
+      }
+    ]
+  },
+  {
+    "fileName": "_PKM",
+    "relativePath": "80_PKM/_PKM.md",
+    "tags": [
+      "area"
+    ],
+    "aliases": [
+      "🗃 PKM"
+    ],
+    "headings": [
+      {
+        "heading": "🗃 Personal Knowledge Management",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "🎛 Dashboard",
+        "relativePath": "✔️/🎛 Dashboard.md",
+        "displayText": "⤴️ Dashboard"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "_Subjects",
+        "link": "_PKM",
+        "relativePath": "80_PKM/83_Subjects/_Subjects.md",
+        "displayText": "🗃 PKM"
+      },
+      {
+        "fileName": "_Sources",
+        "link": "_PKM",
+        "relativePath": "80_PKM/82_Sources/_Sources.md",
+        "displayText": "🗃 PKM"
+      }
+    ]
+  },
+  {
+    "fileName": "Joe Smith",
+    "relativePath": "80_PKM/85_People/Joe Smith.md",
+    "aliases": [
+      "@Joe Smith"
+    ],
+    "headings": [
+      {
+        "heading": "Joe Smith",
+        "level": 1
+      },
+      {
+        "heading": "Notes",
+        "level": 2
       }
     ]
   },
@@ -265,43 +280,6 @@
     ]
   },
   {
-    "fileName": "_PKM",
-    "relativePath": "80_PKM/_PKM.md",
-    "tags": [
-      "area"
-    ],
-    "aliases": [
-      "🗃 PKM"
-    ],
-    "headings": [
-      {
-        "heading": "Personal Knowledge Management",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "🎛 Dashboard",
-        "relativePath": "🏠/🎛 Dashboard.md",
-        "displayText": "⤴️"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "_Subjects",
-        "link": "_PKM",
-        "relativePath": "80_PKM/83_Subjects/_Subjects.md",
-        "displayText": "🗃 PKM"
-      },
-      {
-        "fileName": "_Sources",
-        "link": "_PKM",
-        "relativePath": "80_PKM/82_Sources/_Sources.md",
-        "displayText": "🗃 PKM"
-      }
-    ]
-  },
-  {
     "fileName": "_Subjects",
     "relativePath": "80_PKM/83_Subjects/_Subjects.md",
     "tags": [
@@ -334,18 +312,6 @@
         "fileName": "On Writing",
         "link": "_Subjects",
         "relativePath": "80_PKM/83_Subjects/On Writing.md",
-        "displayText": "🗃 PKM.Subjects"
-      },
-      {
-        "fileName": "My PKM Process and Symbols Reference",
-        "link": "_Subjects",
-        "relativePath": "80_PKM/83_Subjects/My PKM Process and Symbols Reference.md",
-        "displayText": "🗃 PKM.Subjects"
-      },
-      {
-        "fileName": "Aphorisms",
-        "link": "_Subjects",
-        "relativePath": "80_PKM/83_Subjects/Aphorisms.md",
         "displayText": "🗃 PKM.Subjects"
       }
     ]
@@ -395,43 +361,6 @@
       {
         "fileName": "Productivity Tools",
         "link": "Project Management",
-        "relativePath": "80_PKM/83_Subjects/Productivity Tools.md"
-      }
-    ]
-  },
-  {
-    "fileName": "Personal Knowledge Management",
-    "relativePath": "80_PKM/83_Subjects/Personal Knowledge Management.md",
-    "aliases": [
-      "§ Personal Knowledge Management"
-    ],
-    "links": [
-      {
-        "link": "Productivity Tools",
-        "relativePath": "80_PKM/83_Subjects/Productivity Tools.md"
-      },
-      {
-        "link": "Zettelkasten"
-      },
-      {
-        "link": "Illustrated guide to PARA note-taking"
-      },
-      {
-        "link": "Cutter Expansive Classification"
-      },
-      {
-        "link": "Johnny Decimal"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "Project Management",
-        "link": "Personal Knowledge Management",
-        "relativePath": "80_PKM/83_Subjects/Project Management.md"
-      },
-      {
-        "fileName": "Productivity Tools",
-        "link": "Personal Knowledge Management",
         "relativePath": "80_PKM/83_Subjects/Productivity Tools.md"
       }
     ]
@@ -494,16 +423,10 @@
         "relativePath": "80_PKM/83_Subjects/Project Management.md"
       },
       {
-        "link": "201804181033 Planning tool platform research"
-      },
-      {
         "link": "Illustrated guide to PARA note-taking"
       },
       {
         "link": "Mermaid"
-      },
-      {
-        "link": "2021-03 News Product Alliance Summit 2021"
       },
       {
         "link": "Canva"
@@ -523,6 +446,43 @@
     ]
   },
   {
+    "fileName": "Personal Knowledge Management",
+    "relativePath": "80_PKM/83_Subjects/Personal Knowledge Management.md",
+    "aliases": [
+      "§ Personal Knowledge Management"
+    ],
+    "links": [
+      {
+        "link": "Productivity Tools",
+        "relativePath": "80_PKM/83_Subjects/Productivity Tools.md"
+      },
+      {
+        "link": "Zettelkasten"
+      },
+      {
+        "link": "Illustrated guide to PARA note-taking"
+      },
+      {
+        "link": "Cutter Expansive Classification"
+      },
+      {
+        "link": "Johnny Decimal"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Project Management",
+        "link": "Personal Knowledge Management",
+        "relativePath": "80_PKM/83_Subjects/Project Management.md"
+      },
+      {
+        "fileName": "Productivity Tools",
+        "link": "Personal Knowledge Management",
+        "relativePath": "80_PKM/83_Subjects/Productivity Tools.md"
+      }
+    ]
+  },
+  {
     "fileName": "On Writing",
     "relativePath": "80_PKM/83_Subjects/On Writing.md",
     "aliases": [
@@ -531,104 +491,6 @@
     "headings": [
       {
         "heading": "On Writing",
-        "level": 1
-      },
-      {
-        "heading": "Notes by Tag",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "_Subjects",
-        "relativePath": "80_PKM/83_Subjects/_Subjects.md",
-        "displayText": "🗃 PKM.Subjects"
-      }
-    ]
-  },
-  {
-    "fileName": "My PKM Process and Symbols Reference",
-    "relativePath": "80_PKM/83_Subjects/My PKM Process and Symbols Reference.md",
-    "tags": [
-      "moc",
-      "subject"
-    ],
-    "aliases": [
-      "§ My PKM Process and Symbols Reference"
-    ],
-    "headings": [
-      {
-        "heading": "My PKM process",
-        "level": 1
-      },
-      {
-        "heading": "To Do",
-        "level": 2
-      },
-      {
-        "heading": "Folder Structure",
-        "level": 2
-      },
-      {
-        "heading": "File and Folder Naming Conventions",
-        "level": 2
-      },
-      {
-        "heading": "Maps of Content",
-        "level": 2
-      },
-      {
-        "heading": "Subjects",
-        "level": 2
-      },
-      {
-        "heading": "Areas vs. Projects vs. Tasks",
-        "level": 2
-      },
-      {
-        "heading": "Other symbols of interest",
-        "level": 2
-      },
-      {
-        "heading": "Symbols to avoid",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "_Subjects",
-        "relativePath": "80_PKM/83_Subjects/_Subjects.md",
-        "displayText": "🗃 PKM.Subjects"
-      },
-      {
-        "link": "2021-03 News Product Alliance Summit 2021"
-      },
-      {
-        "link": "Map of Content"
-      },
-      {
-        "link": "Dataview"
-      },
-      {
-        "link": "Dataview"
-      },
-      {
-        "link": "Map of Content"
-      },
-      {
-        "link": "Areas"
-      }
-    ]
-  },
-  {
-    "fileName": "Aphorisms",
-    "relativePath": "80_PKM/83_Subjects/Aphorisms.md",
-    "aliases": [
-      "§ Aphorisms"
-    ],
-    "headings": [
-      {
-        "heading": "Aphorisms",
         "level": 1
       },
       {
@@ -752,6 +614,12 @@
     "aliases": [
       "📕 Sources"
     ],
+    "headings": [
+      {
+        "heading": "📕 Sources",
+        "level": 1
+      }
+    ],
     "links": [
       {
         "link": "_PKM",
@@ -765,6 +633,60 @@
     "relativePath": "70_Recreation/Restaurants To Try.md"
   },
   {
+    "fileName": "This is a new note",
+    "relativePath": "60_Learning/New project/This is a new note.md"
+  },
+  {
+    "fileName": "Something to do in the new project",
+    "relativePath": "60_Learning/New project/Something to do in the new project.md",
+    "tags": [
+      "task"
+    ],
+    "links": [
+      {
+        "link": "_New project",
+        "relativePath": "60_Learning/New project/_New project.md",
+        "displayText": "⭕️ Learning.New project"
+      },
+      {
+        "link": "_Learning",
+        "relativePath": "60_Learning/_Learning.md",
+        "displayText": "🗃 Learning"
+      },
+      {
+        "link": "2021-12-07"
+      }
+    ]
+  },
+  {
+    "fileName": "_New project",
+    "relativePath": "60_Learning/New project/_New project.md",
+    "tags": [
+      "project"
+    ],
+    "aliases": [
+      "⭕️ Learning.New project"
+    ],
+    "links": [
+      {
+        "link": "_Learning",
+        "relativePath": "60_Learning/_Learning.md",
+        "displayText": "🗃 Learning"
+      },
+      {
+        "link": "2021-12-04"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Something to do in the new project",
+        "link": "_New project",
+        "relativePath": "60_Learning/New project/Something to do in the new project.md",
+        "displayText": "⭕️ Learning.New project"
+      }
+    ]
+  },
+  {
     "fileName": "_Learning",
     "relativePath": "60_Learning/_Learning.md",
     "tags": [
@@ -775,27 +697,52 @@
     ],
     "headings": [
       {
-        "heading": "Tasks",
-        "level": 2
-      },
-      {
-        "heading": "Projects",
-        "level": 2
-      },
-      {
-        "heading": "Notes",
-        "level": 2
-      },
-      {
-        "heading": "Completed",
-        "level": 2
+        "heading": "🗃 Learning",
+        "level": 1
       }
     ],
     "links": [
       {
         "link": "🎛 Dashboard",
-        "relativePath": "🏠/🎛 Dashboard.md",
+        "relativePath": "✔️/🎛 Dashboard.md",
         "displayText": "Dashboard"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Something to do in the new project",
+        "link": "_Learning",
+        "relativePath": "60_Learning/New project/Something to do in the new project.md",
+        "displayText": "🗃 Learning"
+      },
+      {
+        "fileName": "_New project",
+        "link": "_Learning",
+        "relativePath": "60_Learning/New project/_New project.md",
+        "displayText": "🗃 Learning"
+      },
+      {
+        "fileName": "Repeating task",
+        "link": "_Learning",
+        "relativePath": "60_Learning/Repeating task.md",
+        "displayText": "🗃 Learning"
+      }
+    ]
+  },
+  {
+    "fileName": "Repeating task",
+    "relativePath": "60_Learning/Repeating task.md",
+    "tags": [
+      "task"
+    ],
+    "links": [
+      {
+        "link": "_Learning",
+        "relativePath": "60_Learning/_Learning.md",
+        "displayText": "🗃 Learning"
+      },
+      {
+        "link": "2022-01-02"
       }
     ]
   },
@@ -810,33 +757,44 @@
     ],
     "headings": [
       {
-        "heading": "Tasks",
-        "level": 2
-      },
-      {
-        "heading": "Projects",
-        "level": 2
-      },
-      {
-        "heading": "Notes",
-        "level": 2
-      },
-      {
-        "heading": "Completed",
-        "level": 2
+        "heading": "Creative",
+        "level": 1
       }
     ],
     "links": [
       {
         "link": "🎛 Dashboard",
-        "relativePath": "🏠/🎛 Dashboard.md",
+        "relativePath": "✔️/🎛 Dashboard.md",
         "displayText": "Dashboard"
       }
     ]
   },
   {
-    "fileName": "Raw dataview scripts for project management",
-    "relativePath": "40_Productivity/Raw dataview scripts for project management.md",
+    "fileName": "_Productivity",
+    "relativePath": "40_Productivity/_Productivity.md",
+    "tags": [
+      "area"
+    ],
+    "aliases": [
+      "🗃 Productivity"
+    ],
+    "headings": [
+      {
+        "heading": "🗄 Productivity",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "🎛 Dashboard",
+        "relativePath": "✔️/🎛 Dashboard.md",
+        "displayText": "Dashboard"
+      }
+    ]
+  },
+  {
+    "fileName": "Raw dataview scripts for project management (old)",
+    "relativePath": "40_Productivity/Raw dataview scripts for project management (old).md",
     "headings": [
       {
         "heading": "For daily notes..",
@@ -925,90 +883,23 @@
       },
       {
         "link": "📥 Inbox",
-        "relativePath": "🏠/📥 Inbox.md"
+        "relativePath": "✔️/📥 Inbox.md"
       },
       {
         "link": "☀️ Today",
-        "relativePath": "🏠/☀️ Today.md"
+        "relativePath": "✔️/☀️ Today.md"
       },
       {
         "link": "📅 Upcoming",
-        "relativePath": "🏠/📅 Upcoming.md"
+        "relativePath": "✔️/📅 Upcoming.md"
       },
       {
         "link": "🔄 Repeating",
-        "relativePath": "🏠/🔄 Repeating.md"
+        "relativePath": "✔️/🔄 Repeating.md"
       },
       {
         "link": "📔 Logbook",
-        "relativePath": "🏠/📔 Logbook.md"
-      }
-    ]
-  },
-  {
-    "fileName": "_Productivity",
-    "relativePath": "40_Productivity/_Productivity.md",
-    "tags": [
-      "area"
-    ],
-    "aliases": [
-      "🗃 Productivity"
-    ],
-    "headings": [
-      {
-        "heading": "Tasks",
-        "level": 2
-      },
-      {
-        "heading": "Projects",
-        "level": 2
-      },
-      {
-        "heading": "Notes",
-        "level": 2
-      },
-      {
-        "heading": "Completed",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "🎛 Dashboard",
-        "relativePath": "🏠/🎛 Dashboard.md",
-        "displayText": "Dashboard"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "Tao of Hashicorp - find the right tools, integrate, and only build when you must",
-        "link": "_Productivity",
-        "relativePath": "40_Productivity/Tao of Hashicorp - find the right tools, integrate, and only build when you must.md"
-      }
-    ]
-  },
-  {
-    "fileName": "Tao of Hashicorp - find the right tools, integrate, and only build when you must",
-    "relativePath": "40_Productivity/Tao of Hashicorp - find the right tools, integrate, and only build when you must.md",
-    "links": [
-      {
-        "link": "_Productivity",
-        "relativePath": "40_Productivity/_Productivity.md"
-      },
-      {
-        "link": "SCPR"
-      },
-      {
-        "link": "Airtable"
-      },
-      {
-        "link": "@Vijay Singh"
-      },
-      {
-        "link": "2021-07-29"
-      },
-      {
-        "link": "@Andy Cheatwood"
+        "relativePath": "✔️/📔 Logbook.md"
       }
     ]
   },
@@ -1021,14 +912,26 @@
     "aliases": [
       "🗃 Personal"
     ],
+    "headings": [
+      {
+        "heading": "🗄 Personal",
+        "level": 1
+      }
+    ],
     "links": [
       {
         "link": "🎛 Dashboard",
-        "relativePath": "🏠/🎛 Dashboard.md",
+        "relativePath": "✔️/🎛 Dashboard.md",
         "displayText": "Dashboard"
       }
     ],
     "backlinks": [
+      {
+        "fileName": "Here is a test task",
+        "link": "_Personal",
+        "relativePath": "20_Personal/Here is a test task.md",
+        "displayText": "🗃 Personal"
+      },
       {
         "fileName": "_Family",
         "link": "_Personal",
@@ -1050,6 +953,29 @@
     ]
   },
   {
+    "fileName": "Here is a test task",
+    "relativePath": "20_Personal/Here is a test task.md",
+    "tags": [
+      "task"
+    ],
+    "headings": [
+      {
+        "heading": "Here is a test task",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "_Personal",
+        "relativePath": "20_Personal/_Personal.md",
+        "displayText": "🗃 Personal"
+      },
+      {
+        "link": "2021-11-12"
+      }
+    ]
+  },
+  {
     "fileName": "_Family",
     "relativePath": "20_Personal/25_Family/_Family.md",
     "tags": [
@@ -1060,20 +986,8 @@
     ],
     "headings": [
       {
-        "heading": "Tasks",
-        "level": 2
-      },
-      {
-        "heading": "Projects",
-        "level": 2
-      },
-      {
-        "heading": "Notes",
-        "level": 2
-      },
-      {
-        "heading": "Completed",
-        "level": 2
+        "heading": "🗃 Family",
+        "level": 1
       }
     ],
     "links": [
@@ -1095,20 +1009,8 @@
     ],
     "headings": [
       {
-        "heading": "Tasks",
-        "level": 2
-      },
-      {
-        "heading": "Projects",
-        "level": 2
-      },
-      {
-        "heading": "Notes",
-        "level": 2
-      },
-      {
-        "heading": "Completed",
-        "level": 2
+        "heading": "🗃 Finances",
+        "level": 1
       }
     ],
     "links": [
@@ -1127,43 +1029,6 @@
     ]
   },
   {
-    "fileName": "201910021259 How to Make Sourdough Bread",
-    "relativePath": "20_Personal/22_Recipes/201910021259 How to Make Sourdough Bread.md",
-    "tags": [
-      "recipes"
-    ],
-    "headings": [
-      {
-        "heading": "How to Make Sourdough Bread",
-        "level": 1
-      },
-      {
-        "heading": "**Equipment and Ingredients**",
-        "level": 2
-      },
-      {
-        "heading": "**Ingredients**",
-        "level": 4
-      },
-      {
-        "heading": "**Day 1: Prepare Starter**",
-        "level": 2
-      },
-      {
-        "heading": "**Day 2: Mix and Rest Your Dough**",
-        "level": 2
-      },
-      {
-        "heading": "**Day 3: Bake**",
-        "level": 2
-      },
-      {
-        "heading": "**How to Maintain Your Starter**",
-        "level": 2
-      }
-    ]
-  },
-  {
     "fileName": "_Recipes",
     "relativePath": "20_Personal/22_Recipes/_Recipes.md",
     "tags": [
@@ -1174,20 +1039,8 @@
     ],
     "headings": [
       {
-        "heading": "Tasks",
-        "level": 2
-      },
-      {
-        "heading": "Projects",
-        "level": 2
-      },
-      {
-        "heading": "Notes",
-        "level": 2
-      },
-      {
-        "heading": "Completed",
-        "level": 2
+        "heading": "Recipes",
+        "level": 1
       }
     ],
     "links": [
@@ -1263,6 +1116,43 @@
     ]
   },
   {
+    "fileName": "201910021259 How to Make Sourdough Bread",
+    "relativePath": "20_Personal/22_Recipes/201910021259 How to Make Sourdough Bread.md",
+    "tags": [
+      "recipes"
+    ],
+    "headings": [
+      {
+        "heading": "How to Make Sourdough Bread",
+        "level": 1
+      },
+      {
+        "heading": "**Equipment and Ingredients**",
+        "level": 2
+      },
+      {
+        "heading": "**Ingredients**",
+        "level": 4
+      },
+      {
+        "heading": "**Day 1: Prepare Starter**",
+        "level": 2
+      },
+      {
+        "heading": "**Day 2: Mix and Rest Your Dough**",
+        "level": 2
+      },
+      {
+        "heading": "**Day 3: Bake**",
+        "level": 2
+      },
+      {
+        "heading": "**How to Maintain Your Starter**",
+        "level": 2
+      }
+    ]
+  },
+  {
     "fileName": "201812151334 Trinidad stewed beef and dumplings",
     "relativePath": "20_Personal/22_Recipes/201812151334 Trinidad stewed beef and dumplings.md",
     "tags": [
@@ -1293,7 +1183,7 @@
     "links": [
       {
         "link": "🎛 Dashboard",
-        "relativePath": "🏠/🎛 Dashboard.md",
+        "relativePath": "✔️/🎛 Dashboard.md",
         "displayText": "Dashboard"
       }
     ],
@@ -1313,28 +1203,12 @@
       "area"
     ],
     "aliases": [
-      "🗃 Work.Employer Name"
+      "🗃 Work.Employer 1"
     ],
     "headings": [
       {
-        "heading": "Employer Name",
+        "heading": "Employer 1",
         "level": 1
-      },
-      {
-        "heading": "Tasks",
-        "level": 2
-      },
-      {
-        "heading": "Projects",
-        "level": 2
-      },
-      {
-        "heading": "Notes",
-        "level": 2
-      },
-      {
-        "heading": "Completed",
-        "level": 2
       }
     ],
     "links": [
@@ -1346,9 +1220,27 @@
     ],
     "backlinks": [
       {
+        "fileName": "This is a new task",
+        "link": "_Employer Name",
+        "relativePath": "10_Work/11_EmployerName/This is a new task.md",
+        "displayText": "🗃 Work.Employer 1"
+      },
+      {
+        "fileName": "New thing to do",
+        "link": "_Employer Name",
+        "relativePath": "10_Work/11_EmployerName/New thing to do.md",
+        "displayText": "🗃 Work.Employer Name"
+      },
+      {
         "fileName": "_Another Big Thing To Work On",
         "link": "_Employer Name",
         "relativePath": "10_Work/11_EmployerName/Another Big Thing To Work On/_Another Big Thing To Work On.md",
+        "displayText": "🗃 Work.Employer Name"
+      },
+      {
+        "fileName": "Something very important",
+        "link": "_Employer Name",
+        "relativePath": "10_Work/11_EmployerName/Another Big Thing To Work On/Something very important.md",
         "displayText": "🗃 Work.Employer Name"
       },
       {
@@ -1366,6 +1258,41 @@
     ]
   },
   {
+    "fileName": "This is a new task",
+    "relativePath": "10_Work/11_EmployerName/This is a new task.md",
+    "tags": [
+      "task"
+    ],
+    "links": [
+      {
+        "link": "_Employer Name",
+        "relativePath": "10_Work/11_EmployerName/_Employer Name.md",
+        "displayText": "🗃 Work.Employer 1"
+      },
+      {
+        "link": "2021-12-04"
+      }
+    ]
+  },
+  {
+    "fileName": "New thing to do",
+    "relativePath": "10_Work/11_EmployerName/New thing to do.md",
+    "tags": [
+      "task"
+    ],
+    "links": [
+      {
+        "link": "_Employer Name",
+        "relativePath": "10_Work/11_EmployerName/_Employer Name.md",
+        "displayText": "🗃 Work.Employer Name"
+      },
+      {
+        "link": "2021-11-30",
+        "relativePath": "00_Meta/06_Logbook/2021-11-30.md"
+      }
+    ]
+  },
+  {
     "fileName": "_Another Big Thing To Work On",
     "relativePath": "10_Work/11_EmployerName/Another Big Thing To Work On/_Another Big Thing To Work On.md",
     "tags": [
@@ -1374,25 +1301,41 @@
     "aliases": [
       "⭕️ Another Big Thing To Work On"
     ],
-    "headings": [
-      {
-        "heading": "Tasks",
-        "level": 2
-      },
-      {
-        "heading": "Notes",
-        "level": 2
-      },
-      {
-        "heading": "Completed",
-        "level": 2
-      }
-    ],
     "links": [
       {
         "link": "_Employer Name",
         "relativePath": "10_Work/11_EmployerName/_Employer Name.md",
         "displayText": "🗃 Work.Employer Name"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Something very important",
+        "link": "_Another Big Thing To Work On",
+        "relativePath": "10_Work/11_EmployerName/Another Big Thing To Work On/Something very important.md",
+        "displayText": "⭕️ Another Big Thing To Work On"
+      }
+    ]
+  },
+  {
+    "fileName": "Something very important",
+    "relativePath": "10_Work/11_EmployerName/Another Big Thing To Work On/Something very important.md",
+    "tags": [
+      "task"
+    ],
+    "links": [
+      {
+        "link": "_Another Big Thing To Work On",
+        "relativePath": "10_Work/11_EmployerName/Another Big Thing To Work On/_Another Big Thing To Work On.md",
+        "displayText": "⭕️ Another Big Thing To Work On"
+      },
+      {
+        "link": "_Employer Name",
+        "relativePath": "10_Work/11_EmployerName/_Employer Name.md",
+        "displayText": "🗃 Work.Employer Name"
+      },
+      {
+        "link": "2021-12-05"
       }
     ]
   },
@@ -1404,24 +1347,6 @@
     ],
     "aliases": [
       "⭕️ Work.Employer Name.Subproject 1"
-    ],
-    "headings": [
-      {
-        "heading": "Subproject",
-        "level": 1
-      },
-      {
-        "heading": "Tasks",
-        "level": 2
-      },
-      {
-        "heading": "Notes",
-        "level": 2
-      },
-      {
-        "heading": "Completed",
-        "level": 2
-      }
     ],
     "links": [
       {
@@ -1445,29 +1370,14 @@
     "aliases": [
       "⭕️ Work.Employer Name.1st Project"
     ],
-    "headings": [
-      {
-        "heading": "1st Project",
-        "level": 1
-      },
-      {
-        "heading": "Tasks",
-        "level": 2
-      },
-      {
-        "heading": "Notes",
-        "level": 2
-      },
-      {
-        "heading": "Completed",
-        "level": 2
-      }
-    ],
     "links": [
       {
         "link": "_Employer Name",
         "relativePath": "10_Work/11_EmployerName/_Employer Name.md",
         "displayText": "🗃 Work.Employer Name"
+      },
+      {
+        "link": "2021-11-25"
       }
     ],
     "backlinks": [
@@ -1480,8 +1390,61 @@
     ]
   },
   {
-    "fileName": "Note Composer",
-    "relativePath": "00_Meta/01_Templates/Note Composer.md"
+    "fileName": "2021-11-30",
+    "relativePath": "00_Meta/06_Logbook/2021-11-30.md",
+    "aliases": [
+      "11/30/21 Tuesday"
+    ],
+    "headings": [
+      {
+        "heading": "Tuesday, November 30, 2021",
+        "level": 1
+      },
+      {
+        "heading": "Log",
+        "level": 1
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "New thing to do",
+        "link": "2021-11-30",
+        "relativePath": "10_Work/11_EmployerName/New thing to do.md"
+      },
+      {
+        "fileName": "2021-11-30 Important Meeting",
+        "link": "2021-11-30",
+        "relativePath": "00_Meta/06_Logbook/2021-11-30 Important Meeting.md",
+        "displayText": "Tuesday"
+      }
+    ]
+  },
+  {
+    "fileName": "2021-11-30 Important Meeting",
+    "relativePath": "00_Meta/06_Logbook/2021-11-30 Important Meeting.md",
+    "tags": [
+      "log"
+    ],
+    "aliases": [
+      "11/30/21 Important Meeting"
+    ],
+    "headings": [
+      {
+        "heading": "Important Meeting",
+        "level": 1
+      },
+      {
+        "heading": "Notes:",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "2021-11-30",
+        "relativePath": "00_Meta/06_Logbook/2021-11-30.md",
+        "displayText": "Tuesday"
+      }
+    ]
   },
   {
     "fileName": "Task",
@@ -1542,12 +1505,6 @@
   {
     "fileName": "Person",
     "relativePath": "00_Meta/01_Templates/Person.md",
-    "headings": [
-      {
-        "heading": "Notes & Interactions",
-        "level": 2
-      }
-    ],
     "backlinks": [
       {
         "fileName": "Get Template",
@@ -1557,29 +1514,27 @@
     ]
   },
   {
+    "fileName": "Note Composer",
+    "relativePath": "00_Meta/01_Templates/Note Composer.md"
+  },
+  {
     "fileName": "Log",
     "relativePath": "00_Meta/01_Templates/Log.md",
-    "headings": [
-      {
-        "heading": "<% cleanTitle %>",
-        "level": 1
-      },
-      {
-        "heading": "Notes:",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "<% logDate %>",
-        "displayText": "<% tp.date.now(\"dddd\", 0, logDate, \"YYYY-MM-DD\") %>"
-      }
-    ],
     "backlinks": [
       {
         "fileName": "Get Template",
         "link": "Log",
         "relativePath": "00_Meta/01_Templates/Get Template.md"
+      }
+    ]
+  },
+  {
+    "fileName": "KPCC Script",
+    "relativePath": "00_Meta/01_Templates/KPCC Script.md",
+    "headings": [
+      {
+        "heading": "Meeting",
+        "level": 1
       }
     ]
   },
@@ -1602,28 +1557,14 @@
       {
         "link": "Task",
         "relativePath": "00_Meta/01_Templates/Task.md"
-      }
-    ]
-  },
-  {
-    "fileName": "Area",
-    "relativePath": "00_Meta/01_Templates/Area.md",
-    "headings": [
-      {
-        "heading": "Tasks",
-        "level": 2
       },
       {
-        "heading": "Projects",
-        "level": 2
+        "link": "Area or Project",
+        "relativePath": "00_Meta/01_Templates/Area or Project.md"
       },
       {
-        "heading": "Notes",
-        "level": 2
-      },
-      {
-        "heading": "Completed",
-        "level": 2
+        "link": "Area or Project",
+        "relativePath": "00_Meta/01_Templates/Area or Project.md"
       }
     ]
   },
@@ -1666,6 +1607,25 @@
         "fileName": "Empty Note",
         "link": "Daily Note",
         "relativePath": "00_Meta/01_Templates/Empty Note.md"
+      }
+    ]
+  },
+  {
+    "fileName": "Area or Project",
+    "relativePath": "00_Meta/01_Templates/Area or Project.md",
+    "tags": [
+      "project"
+    ],
+    "backlinks": [
+      {
+        "fileName": "Get Template",
+        "link": "Area or Project",
+        "relativePath": "00_Meta/01_Templates/Get Template.md"
+      },
+      {
+        "fileName": "Get Template",
+        "link": "Area or Project",
+        "relativePath": "00_Meta/01_Templates/Get Template.md"
       }
     ]
   }

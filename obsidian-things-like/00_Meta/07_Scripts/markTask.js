@@ -3,15 +3,19 @@ class MarkTask {
     async complete(args) {
         const {
             app,
+            dv,
+            fpath,
             file,
-            moment
+            moment,
+            checked
         } = args;
 
         const format = (date) => date.format("YYYY-MM-DD");
-        const today = moment();
+        const today = moment(moment().format("YYYY-MM-DD"));
         const {update, getPropertiesInFile} = app.plugins.plugins["metaedit"].api;
         const props = await getPropertiesInFile(file);
         const completedFieldExists = props.map(p => p.key).includes("completed");
+        const lastCompletedFieldExists = props.map(p => p.key).includes("lastCompleted");
         const startFieldExists = props.map(p => p.key).includes("start");
         const lastRepeatFieldExists = props.map(p => p.key).includes("lastRepeat");
         const dueFieldExists = props.map(p => p.key).includes("due");
@@ -23,66 +27,7 @@ class MarkTask {
         const dueAfter = props.filter(p => p.key === "dueAfter")[0]?.content;
         const newStart = resetStart();
         const newDue = resetDue();
-
-        function updateStart(nearestInstance, incrementBy, time) {
-            if (start) {
-                if (start.isAfter(today, 'day')) {
-                    return null;
-                } 
-            }
-            let next = nearestInstance;
-            if (!next.isAfter(today)) {
-                while (next.isSameOrBefore(today)) {
-                    next = next.add(incrementBy, time);
-                }
-            }
-            return next;
-        }
-    
-        function resetStart() {
-            let date = null;
-            if (repeat) {
-                let dateFrom = lastRepeatFieldExists ? lastRepeat : (start ? start : null);
-                if (dateFrom) {
-                    switch (repeat) {
-                        case "daily":
-                            date = today.add(1, 'days');
-                            break;
-                        case "weekly":
-                            date = updateStart(moment(dateFrom).add(1, 'weeks'), 1, 'weeks');
-                            break;
-                        case "biweekly":
-                            date = updateStart(moment(dateFrom).add(2, 'weeks'), 2, 'weeks');
-                            break;
-                        case "monthly":
-                            date = updateStart(moment(dateFrom).add(1, 'months'), 1, 'months');
-                            break;
-                        case "bimonthly":
-                            date = updateStart(moment(dateFrom).add(2, 'months'), 2, 'months');
-                            break;
-                        case "quarterly":
-                            date = updateStart(moment(dateFrom).add(1, 'quarters'), 1, 'quarters');
-                            break;
-                        case "annually":
-                            date = updateStart(moment(dateFrom).add(1, 'years'), 1, 'years');
-                            break;
-                        default:
-                            break;
-                    }
-                }
-            }
-            return date;
-        }
-    
-        function resetDue() {
-            if (dueAfter) {
-                if (newStart) {
-                    let newDue = moment(format(newStart));
-                    return "[[" + format(newDue.add(dueAfter, 'days')) + "]]";
-                }
-            }
-            return "";
-        }
+        const newCompleted = checked ? "" : (repeat ? format(today) : "[[" + format(today) + "]]");
 
         if (repeat) {
             if (newStart) {
@@ -98,9 +43,98 @@ class MarkTask {
                     await update("due", newDue, file);
                 }
             }
+            if (lastCompletedFieldExists) {
+                await update("lastCompleted", newCompleted, file);
+            }
         } else {
             if (completedFieldExists) {
-                await update("completed", "[[" + format(today) + "]]", file);
+                await update("completed", newCompleted, file);
+            }
+        }
+
+        function resetDue() {
+            if (dueAfter) {
+                if (newStart) {
+                    let newDue = moment(format(newStart));
+                    return "[[" + format(newDue.add(dueAfter, 'days')) + "]]";
+                }
+            }
+            return "";
+        }
+    
+        function resetStart() {
+            let date = null;
+            if (repeat) {
+                if (lastRepeatFieldExists || start) {
+                    switch (repeat) {
+                        case "daily":
+                            date = calcDate(1, 'days');
+                            break;
+                        case "weekly":
+                            // date = updateStart(moment(dateFrom).add(1, 'weeks'), 1, 'weeks');
+                            date = calcDate(1, 'weeks');
+                            break;
+                        case "biweekly":
+                            // date = updateStart(moment(dateFrom).add(2, 'weeks'), 2, 'weeks');
+                            date = calcDate(2, 'weeks');
+                            break;
+                        case "monthly":
+                            // date = updateStart(moment(dateFrom).add(1, 'months'), 1, 'months');
+                            date = calcDate(1, 'months');
+                            break;
+                        case "bimonthly":
+                            // date = updateStart(moment(dateFrom).add(2, 'months'), 2, 'months');
+                            date = calcDate(2, 'months');
+                            break;
+                        case "quarterly":
+                            // date = updateStart(moment(dateFrom).add(1, 'quarters'), 1, 'quarters');
+                            date = calcDate(1, 'quarters');
+                            break;
+                        case "annually":
+                            // date = updateStart(moment(dateFrom).add(1, 'years'), 1, 'years');
+                            date = calcDate(1, 'years');
+                            break;
+                        default:
+                            break;
+                    }
+                }
+            }
+            return date;
+        }
+    
+        function calcDate(count, duration) {
+            let dateFrom = lastRepeatFieldExists ? lastRepeat : (start ? start : null);
+            let operation = checked ? "subtract" : "add";
+            return dateFrom ? updateStart(format(moment(dateFrom)[operation](count, duration)), count, duration) : "";
+        }
+
+        function updateStart(nearestInstance, incrementBy, time) {
+            if (!checked) {
+                if (start) {
+                    if (start.isAfter(today, 'day')) {
+                        return null;
+                    } 
+                }
+                let next = moment(nearestInstance);
+                if (!next.isAfter(today)) {
+                    while (next.isSameOrBefore(today)) {
+                        next = next.add(incrementBy, time);
+                    }
+                }
+                return next;
+            } else {
+                let prev = moment(nearestInstance);
+                if (prev.isAfter(today)) {
+                    while (prev.isAfter(today)) {
+                        prev = prev.subtract(incrementBy, time);
+                    }
+                } 
+                else if (prev.isBefore(today)) {
+                    while (prev.isBefore(today)) {
+                        prev = prev.add(incrementBy, time);
+                    }
+                }
+                return prev;
             }
         }
     }

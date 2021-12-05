@@ -14,8 +14,16 @@ else if (/^@/.test(tp.file.title)) {
 else if (/!task/.test(tp.file.title)) {
 	let task = await tp.file.include("[[Task]]");
 	tR += task;
-} else
-	{
-		tR += "---\n" + "id: " + tp.date.now("YYYYMMDDHHmmssS") + "\n---";
-	}
+} 
+else if (/!project/.test(tp.file.title)) {
+	let project = await tp.file.include("[[Area or Project]]");
+	tR += project;
+}
+else if (/!area/.test(tp.file.title)) {
+	let area = await tp.file.include("[[Area or Project]]");
+	tR += area;
+}
+else {
+	tR += "---\n" + "id: " + tp.date.now("YYYYMMDDHHmmssS") + "\n---";
+}
 %>

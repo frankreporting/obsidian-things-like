@@ -6,6 +6,9 @@ tags: area
 obsidianUIMode: preview
 ---
 area:: [[_PKM|🗃 PKM]]
+
+# 📕 Sources
+
 ```dataviewjs
 function getYear(x) {
 	return x ? dv.date(x).year.toString() : 'Unfinished'

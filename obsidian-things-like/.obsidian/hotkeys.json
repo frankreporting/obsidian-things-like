@@ -206,15 +206,7 @@
       "key": "\\"
     }
   ],
-  "table-editor-obsidian:table-control-bar": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "T"
-    }
-  ],
+  "table-editor-obsidian:table-control-bar": [],
   "hotkeysplus-obsidian:toggle-bullet-number": [
     {
       "modifiers": [
