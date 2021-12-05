@@ -21,24 +21,24 @@
       "relativePath": "40_Productivity"
     },
     {
-      "name": "60_Learning",
-      "relativePath": "60_Learning"
-    },
-    {
       "name": "50_Creative",
       "relativePath": "50_Creative"
+    },
+    {
+      "name": "60_Learning",
+      "relativePath": "60_Learning"
     },
     {
       "name": "70_Recreation",
       "relativePath": "70_Recreation"
     },
     {
-      "name": "90_Archive",
-      "relativePath": "90_Archive"
-    },
-    {
       "name": "80_PKM",
       "relativePath": "80_PKM"
+    },
+    {
+      "name": "90_Archive",
+      "relativePath": "90_Archive"
     },
     {
       "name": "_README",
@@ -69,12 +69,12 @@
       "relativePath": "00_Meta/05_Inbox"
     },
     {
-      "name": "07_Scripts",
-      "relativePath": "00_Meta/07_Scripts"
-    },
-    {
       "name": "06_Logbook",
       "relativePath": "00_Meta/06_Logbook"
+    },
+    {
+      "name": "07_Scripts",
+      "relativePath": "00_Meta/07_Scripts"
     },
     {
       "name": "08_QuickAdd",
@@ -170,14 +170,14 @@
       "relativePath": "00_Meta/02_Pandoc/custom-styles.css"
     },
     {
-      "name": "dvTasks.js",
-      "basename": "dvTasks",
-      "relativePath": "00_Meta/07_Scripts/dvTasks.js"
-    },
-    {
       "name": "markTask.js",
       "basename": "markTask",
       "relativePath": "00_Meta/07_Scripts/markTask.js"
+    },
+    {
+      "name": "dvTasks.js",
+      "basename": "dvTasks",
+      "relativePath": "00_Meta/07_Scripts/dvTasks.js"
     },
     {
       "name": "markCompleted.js",

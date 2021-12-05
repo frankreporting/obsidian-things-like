@@ -1,5 +1,16 @@
 [
   {
+    "fileName": "📥 Inbox",
+    "relativePath": "✔️/📥 Inbox.md",
+    "backlinks": [
+      {
+        "fileName": "Raw dataview scripts for project management (old)",
+        "link": "📥 Inbox",
+        "relativePath": "40_Productivity/Raw dataview scripts for project management (old).md"
+      }
+    ]
+  },
+  {
     "fileName": "🔄 Repeating",
     "relativePath": "✔️/🔄 Repeating.md",
     "headings": [
@@ -12,17 +23,6 @@
       {
         "fileName": "Raw dataview scripts for project management (old)",
         "link": "🔄 Repeating",
-        "relativePath": "40_Productivity/Raw dataview scripts for project management (old).md"
-      }
-    ]
-  },
-  {
-    "fileName": "📥 Inbox",
-    "relativePath": "✔️/📥 Inbox.md",
-    "backlinks": [
-      {
-        "fileName": "Raw dataview scripts for project management (old)",
-        "link": "📥 Inbox",
         "relativePath": "40_Productivity/Raw dataview scripts for project management (old).md"
       }
     ]
@@ -60,27 +60,27 @@
     "relativePath": "✔️/🎛 Dashboard.md",
     "backlinks": [
       {
-        "fileName": "_PKM",
-        "link": "🎛 Dashboard",
-        "relativePath": "80_PKM/_PKM.md",
-        "displayText": "⤴️ Dashboard"
-      },
-      {
         "fileName": "_Archive",
         "link": "🎛 Dashboard",
         "relativePath": "90_Archive/_Archive.md",
         "displayText": "Dashboard"
       },
       {
-        "fileName": "_Creative",
+        "fileName": "_PKM",
         "link": "🎛 Dashboard",
-        "relativePath": "50_Creative/_Creative.md",
-        "displayText": "Dashboard"
+        "relativePath": "80_PKM/_PKM.md",
+        "displayText": "⤴️ Dashboard"
       },
       {
         "fileName": "_Learning",
         "link": "🎛 Dashboard",
         "relativePath": "60_Learning/_Learning.md",
+        "displayText": "Dashboard"
+      },
+      {
+        "fileName": "_Creative",
+        "link": "🎛 Dashboard",
+        "relativePath": "50_Creative/_Creative.md",
         "displayText": "Dashboard"
       },
       {
@@ -175,43 +175,25 @@
     ]
   },
   {
-    "fileName": "Joe Smith",
-    "relativePath": "80_PKM/85_People/Joe Smith.md",
+    "fileName": "_Archive",
+    "relativePath": "90_Archive/_Archive.md",
+    "tags": [
+      "area"
+    ],
     "aliases": [
-      "@Joe Smith"
+      "🗃 Archive"
     ],
     "headings": [
       {
-        "heading": "Joe Smith",
+        "heading": "Archive",
         "level": 1
-      },
-      {
-        "heading": "Notes",
-        "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "Bobby Jean",
-    "relativePath": "80_PKM/85_People/Bobby Jean.md",
-    "aliases": [
-      "@Bobby Jean"
-    ],
-    "headings": [
-      {
-        "heading": "Bobby Jean",
-        "level": 1
-      },
-      {
-        "heading": "Notes",
-        "level": 2
       }
     ],
-    "backlinks": [
+    "links": [
       {
-        "fileName": "2021-12-04 Some new meeting",
-        "link": "Bobby Jean",
-        "relativePath": "00_Meta/06_Logbook/2021-12-04 Some new meeting.md"
+        "link": "🎛 Dashboard",
+        "relativePath": "✔️/🎛 Dashboard.md",
+        "displayText": "Dashboard"
       }
     ]
   },
@@ -253,22 +235,43 @@
     ]
   },
   {
-    "fileName": "Los Angeles Police Department",
-    "relativePath": "80_PKM/84_Entities/Los Angeles Police Department.md",
+    "fileName": "Joe Smith",
+    "relativePath": "80_PKM/85_People/Joe Smith.md",
     "aliases": [
-      "LAPD Media Relations",
-      "213-486-5910 (Phone)",
-      "lapdhq (Twitter)",
-      "wwwpress@lapd.online (Email)"
+      "@Joe Smith"
     ],
     "headings": [
       {
-        "heading": "Los Angeles Police Department",
+        "heading": "Joe Smith",
         "level": 1
       },
       {
-        "heading": "Notes & Interactions",
+        "heading": "Notes",
         "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "Bobby Jean",
+    "relativePath": "80_PKM/85_People/Bobby Jean.md",
+    "aliases": [
+      "@Bobby Jean"
+    ],
+    "headings": [
+      {
+        "heading": "Bobby Jean",
+        "level": 1
+      },
+      {
+        "heading": "Notes",
+        "level": 2
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "2021-12-04 Some new meeting",
+        "link": "Bobby Jean",
+        "relativePath": "00_Meta/06_Logbook/2021-12-04 Some new meeting.md"
       }
     ]
   },
@@ -284,6 +287,26 @@
     "headings": [
       {
         "heading": "Los Angeles County Sheriff's Department",
+        "level": 1
+      },
+      {
+        "heading": "Notes & Interactions",
+        "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "Los Angeles Police Department",
+    "relativePath": "80_PKM/84_Entities/Los Angeles Police Department.md",
+    "aliases": [
+      "LAPD Media Relations",
+      "213-486-5910 (Phone)",
+      "lapdhq (Twitter)",
+      "wwwpress@lapd.online (Email)"
+    ],
+    "headings": [
+      {
+        "heading": "Los Angeles Police Department",
         "level": 1
       },
       {
@@ -459,30 +482,6 @@
     ]
   },
   {
-    "fileName": "On Writing",
-    "relativePath": "80_PKM/83_Subjects/On Writing.md",
-    "aliases": [
-      "§ On Writing"
-    ],
-    "headings": [
-      {
-        "heading": "On Writing",
-        "level": 1
-      },
-      {
-        "heading": "Notes by Tag",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "_Subjects",
-        "relativePath": "80_PKM/83_Subjects/_Subjects.md",
-        "displayText": "🗃 PKM.Subjects"
-      }
-    ]
-  },
-  {
     "fileName": "Personal Knowledge Management",
     "relativePath": "80_PKM/83_Subjects/Personal Knowledge Management.md",
     "aliases": [
@@ -516,6 +515,44 @@
         "fileName": "Productivity Tools",
         "link": "Personal Knowledge Management",
         "relativePath": "80_PKM/83_Subjects/Productivity Tools.md"
+      }
+    ]
+  },
+  {
+    "fileName": "On Writing",
+    "relativePath": "80_PKM/83_Subjects/On Writing.md",
+    "aliases": [
+      "§ On Writing"
+    ],
+    "headings": [
+      {
+        "heading": "On Writing",
+        "level": 1
+      },
+      {
+        "heading": "Notes by Tag",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "_Subjects",
+        "relativePath": "80_PKM/83_Subjects/_Subjects.md",
+        "displayText": "🗃 PKM.Subjects"
+      }
+    ]
+  },
+  {
+    "fileName": "¶atwood1986HandmaidTale",
+    "relativePath": "80_PKM/82_Sources/¶atwood1986HandmaidTale.md",
+    "headings": [
+      {
+        "heading": "The Handmaid's Tale",
+        "level": 1
+      },
+      {
+        "heading": "Notes:",
+        "level": 1
       }
     ]
   },
@@ -605,20 +642,6 @@
     ]
   },
   {
-    "fileName": "¶atwood1986HandmaidTale",
-    "relativePath": "80_PKM/82_Sources/¶atwood1986HandmaidTale.md",
-    "headings": [
-      {
-        "heading": "The Handmaid's Tale",
-        "level": 1
-      },
-      {
-        "heading": "Notes:",
-        "level": 1
-      }
-    ]
-  },
-  {
     "fileName": "_Sources",
     "relativePath": "80_PKM/82_Sources/_Sources.md",
     "tags": [
@@ -642,54 +665,8 @@
     ]
   },
   {
-    "fileName": "_Archive",
-    "relativePath": "90_Archive/_Archive.md",
-    "tags": [
-      "area"
-    ],
-    "aliases": [
-      "🗃 Archive"
-    ],
-    "headings": [
-      {
-        "heading": "Archive",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "🎛 Dashboard",
-        "relativePath": "✔️/🎛 Dashboard.md",
-        "displayText": "Dashboard"
-      }
-    ]
-  },
-  {
     "fileName": "Restaurants To Try",
     "relativePath": "70_Recreation/Restaurants To Try.md"
-  },
-  {
-    "fileName": "_Creative",
-    "relativePath": "50_Creative/_Creative.md",
-    "tags": [
-      "area"
-    ],
-    "aliases": [
-      "🗃 Creative"
-    ],
-    "headings": [
-      {
-        "heading": "Creative",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "🎛 Dashboard",
-        "relativePath": "✔️/🎛 Dashboard.md",
-        "displayText": "Dashboard"
-      }
-    ]
   },
   {
     "fileName": "_Learning",
@@ -721,15 +698,15 @@
         "displayText": "🗃 Learning"
       },
       {
-        "fileName": "_New project",
-        "link": "_Learning",
-        "relativePath": "60_Learning/New project/_New project.md",
-        "displayText": "🗃 Learning"
-      },
-      {
         "fileName": "Something to do in the new project",
         "link": "_Learning",
         "relativePath": "60_Learning/New project/Something to do in the new project.md",
+        "displayText": "🗃 Learning"
+      },
+      {
+        "fileName": "_New project",
+        "link": "_Learning",
+        "relativePath": "60_Learning/New project/_New project.md",
         "displayText": "🗃 Learning"
       }
     ]
@@ -748,6 +725,28 @@
       },
       {
         "link": "2022-01-02"
+      }
+    ]
+  },
+  {
+    "fileName": "Something to do in the new project",
+    "relativePath": "60_Learning/New project/Something to do in the new project.md",
+    "tags": [
+      "task"
+    ],
+    "links": [
+      {
+        "link": "_New project",
+        "relativePath": "60_Learning/New project/_New project.md",
+        "displayText": "⭕️ Learning.New project"
+      },
+      {
+        "link": "_Learning",
+        "relativePath": "60_Learning/_Learning.md",
+        "displayText": "🗃 Learning"
+      },
+      {
+        "link": "2021-12-07"
       }
     ]
   },
@@ -780,30 +779,31 @@
     ]
   },
   {
-    "fileName": "Something to do in the new project",
-    "relativePath": "60_Learning/New project/Something to do in the new project.md",
+    "fileName": "This is a new note",
+    "relativePath": "60_Learning/New project/This is a new note.md"
+  },
+  {
+    "fileName": "_Creative",
+    "relativePath": "50_Creative/_Creative.md",
     "tags": [
-      "task"
+      "area"
+    ],
+    "aliases": [
+      "🗃 Creative"
+    ],
+    "headings": [
+      {
+        "heading": "Creative",
+        "level": 1
+      }
     ],
     "links": [
       {
-        "link": "_New project",
-        "relativePath": "60_Learning/New project/_New project.md",
-        "displayText": "⭕️ Learning.New project"
-      },
-      {
-        "link": "_Learning",
-        "relativePath": "60_Learning/_Learning.md",
-        "displayText": "🗃 Learning"
-      },
-      {
-        "link": "2021-12-07"
+        "link": "🎛 Dashboard",
+        "relativePath": "✔️/🎛 Dashboard.md",
+        "displayText": "Dashboard"
       }
     ]
-  },
-  {
-    "fileName": "This is a new note",
-    "relativePath": "60_Learning/New project/This is a new note.md"
   },
   {
     "fileName": "_Productivity",
@@ -1065,28 +1065,6 @@
     ]
   },
   {
-    "fileName": "202001252153 Cracker Barrel Buttermilk Pancakes Recipe",
-    "relativePath": "20_Personal/22_Recipes/202001252153 Cracker Barrel Buttermilk Pancakes Recipe.md",
-    "tags": [
-      "recipes",
-      "health"
-    ],
-    "headings": [
-      {
-        "heading": "Cracker Barrel Buttermilk Pancakes",
-        "level": 1
-      },
-      {
-        "heading": "INGREDIENTS",
-        "level": 2
-      },
-      {
-        "heading": "DIRECTIONS",
-        "level": 2
-      }
-    ]
-  },
-  {
     "fileName": "_Recipes",
     "relativePath": "20_Personal/22_Recipes/_Recipes.md",
     "tags": [
@@ -1106,6 +1084,28 @@
         "link": "_Personal",
         "relativePath": "20_Personal/_Personal.md",
         "displayText": "🗃 Personal"
+      }
+    ]
+  },
+  {
+    "fileName": "202001252153 Cracker Barrel Buttermilk Pancakes Recipe",
+    "relativePath": "20_Personal/22_Recipes/202001252153 Cracker Barrel Buttermilk Pancakes Recipe.md",
+    "tags": [
+      "recipes",
+      "health"
+    ],
+    "headings": [
+      {
+        "heading": "Cracker Barrel Buttermilk Pancakes",
+        "level": 1
+      },
+      {
+        "heading": "INGREDIENTS",
+        "level": 2
+      },
+      {
+        "heading": "DIRECTIONS",
+        "level": 2
       }
     ]
   },
@@ -1152,6 +1152,19 @@
     ]
   },
   {
+    "fileName": "201812151334 Trinidad stewed beef and dumplings",
+    "relativePath": "20_Personal/22_Recipes/201812151334 Trinidad stewed beef and dumplings.md",
+    "tags": [
+      "recipes"
+    ],
+    "headings": [
+      {
+        "heading": "Trinidad stewed beef and dumplings",
+        "level": 1
+      }
+    ]
+  },
+  {
     "fileName": "201910021259 How to Make Sourdough Bread",
     "relativePath": "20_Personal/22_Recipes/201910021259 How to Make Sourdough Bread.md",
     "tags": [
@@ -1185,19 +1198,6 @@
       {
         "heading": "**How to Maintain Your Starter**",
         "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "201812151334 Trinidad stewed beef and dumplings",
-    "relativePath": "20_Personal/22_Recipes/201812151334 Trinidad stewed beef and dumplings.md",
-    "tags": [
-      "recipes"
-    ],
-    "headings": [
-      {
-        "heading": "Trinidad stewed beef and dumplings",
-        "level": 1
       }
     ]
   },
@@ -1426,36 +1426,6 @@
     ]
   },
   {
-    "fileName": "2021-12-04 Some new meeting",
-    "relativePath": "00_Meta/06_Logbook/2021-12-04 Some new meeting.md",
-    "tags": [
-      "log"
-    ],
-    "aliases": [
-      "12/4/21 Some new meeting"
-    ],
-    "headings": [
-      {
-        "heading": "Some new meeting",
-        "level": 1
-      },
-      {
-        "heading": "Notes:",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "2021-12-04",
-        "displayText": "Saturday"
-      },
-      {
-        "link": "Bobby Jean",
-        "relativePath": "80_PKM/85_People/Bobby Jean.md"
-      }
-    ]
-  },
-  {
     "fileName": "2021-11-30",
     "relativePath": "00_Meta/06_Logbook/2021-11-30.md",
     "aliases": [
@@ -1482,6 +1452,36 @@
         "link": "2021-11-30",
         "relativePath": "00_Meta/06_Logbook/2021-11-30 Important Meeting.md",
         "displayText": "Tuesday"
+      }
+    ]
+  },
+  {
+    "fileName": "2021-12-04 Some new meeting",
+    "relativePath": "00_Meta/06_Logbook/2021-12-04 Some new meeting.md",
+    "tags": [
+      "log"
+    ],
+    "aliases": [
+      "12/4/21 Some new meeting"
+    ],
+    "headings": [
+      {
+        "heading": "Some new meeting",
+        "level": 1
+      },
+      {
+        "heading": "Notes:",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "2021-12-04",
+        "displayText": "Saturday"
+      },
+      {
+        "link": "Bobby Jean",
+        "relativePath": "80_PKM/85_People/Bobby Jean.md"
       }
     ]
   },
@@ -1547,10 +1547,6 @@
     ]
   },
   {
-    "fileName": "Subject",
-    "relativePath": "00_Meta/01_Templates/Subject.md"
-  },
-  {
     "fileName": "Project",
     "relativePath": "00_Meta/01_Templates/Project.md",
     "headings": [
@@ -1569,8 +1565,8 @@
     ]
   },
   {
-    "fileName": "Note Composer",
-    "relativePath": "00_Meta/01_Templates/Note Composer.md"
+    "fileName": "Subject",
+    "relativePath": "00_Meta/01_Templates/Subject.md"
   },
   {
     "fileName": "Person",
@@ -1582,6 +1578,10 @@
         "relativePath": "00_Meta/01_Templates/Get Template.md"
       }
     ]
+  },
+  {
+    "fileName": "Note Composer",
+    "relativePath": "00_Meta/01_Templates/Note Composer.md"
   },
   {
     "fileName": "Log",

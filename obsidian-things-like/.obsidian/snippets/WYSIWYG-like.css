@@ -7,19 +7,19 @@ Adapted from:
 
 Should work with both CodeMirror Options plugin on the legacy editor and Live Preview/CodeMirror 6 except where otherwise indicated.
 
-Last Updated: 12/4/21 
+Last Updated: 12/5/21 
 */
 
 /* Headers */
-.markdown-preview-view h1, .hmd-fold-code-content.hmd-fold-code-dataview h1, .cm-header-1, .cm-s-obsidian .cm-header-1, h1.task-flexbox { font-size: 1.64rem; }
-.markdown-preview-view h2, .hmd-fold-code-content.hmd-fold-code-dataview h2, .cm-header-2, .cm-s-obsidian .cm-header-2, h2.task-flexbox { font-size: 1.33rem; }
-.markdown-preview-view h3, .hmd-fold-code-content.hmd-fold-code-dataview h3, .cm-header-3, .cm-s-obsidian .cm-header-3, h3.task-flexbox { font-size: 1.16rem; }
-.markdown-preview-view h4, .hmd-fold-code-content.hmd-fold-code-dataview h4, .cm-header-4, .cm-s-obsidian .cm-header-4, h4.task-flexbox { font-size: 1rem; }
-.markdown-preview-view h5, .hmd-fold-code-content.hmd-fold-code-dataview h5, .cm-header-5, .cm-s-obsidian .cm-header-5, h5.task-flexbox { font-size: 0.83rem; }
-.markdown-preview-view h6, .hmd-fold-code-content.hmd-fold-code-dataview h6, .cm-header-6, .cm-s-obsidian .cm-header-6, h6.task-flexbox { font-size: 0.64rem; }
+h1, .markdown-preview-view h1, .hmd-fold-code-content.hmd-fold-code-dataview h1, .cm-header-1, .cm-s-obsidian .cm-header-1, h1.task-flexbox { font-size: 1.64rem; }
+h2, .markdown-preview-view h2, .hmd-fold-code-content.hmd-fold-code-dataview h2, .cm-header-2, .cm-s-obsidian .cm-header-2, h2.task-flexbox { font-size: 1.33rem; }
+h3, .markdown-preview-view h3, .hmd-fold-code-content.hmd-fold-code-dataview h3, .cm-header-3, .cm-s-obsidian .cm-header-3, h3.task-flexbox { font-size: 1.16rem; }
+h4, .markdown-preview-view h4, .hmd-fold-code-content.hmd-fold-code-dataview h4, .cm-header-4, .cm-s-obsidian .cm-header-4, h4.task-flexbox { font-size: 1rem; }
+h5, .markdown-preview-view h5, .hmd-fold-code-content.hmd-fold-code-dataview h5, .cm-header-5, .cm-s-obsidian .cm-header-5, h5.task-flexbox { font-size: 0.83rem; }
+h6, .markdown-preview-view h6, .hmd-fold-code-content.hmd-fold-code-dataview h6, .cm-header-6, .cm-s-obsidian .cm-header-6, h6.task-flexbox { font-size: 0.64rem; }
 
 .markdown-preview-view h1, .hmd-fold-code-content.hmd-fold-code-dataview h1 { border-bottom: 2px solid; line-height: 1.1em; margin-top: 0.8em; padding-bottom: 0.2em;}
-.markdown-preview-view h2, .hmd-fold-code-content.hmd-fold-code-dataview h2 { border-bottom: 1px solid; line-height: 1em;}
+.markdown-preview-view h2, .hmd-fold-code-content.hmd-fold-code-dataview h2 { border-bottom: 1px solid; line-height: 1.1em; margin-top: 0.8em; padding-bottom: 0.2em;}
 
 .cm-formatting-header-1 { font-size: 1.83rem; }
 .cm-formatting-header-2 { font-size: 1.44rem; }
@@ -31,14 +31,16 @@ Last Updated: 12/4/21
 /* H1 and H2 underlines */
 .HyperMD-header.HyperMD-header-1.CodeMirror-line, 
 .HyperMD-header.HyperMD-header-1.cm-line,
-h1.task-flexbox {
+h1.task-flexbox,
+div.block-language-dataviewjs h1 {
     border-bottom: 2px solid lightgray;
     border-bottom: linear
 }
 
 .HyperMD-header.HyperMD-header-2.CodeMirror-line, 
 .HyperMD-header.HyperMD-header-2.cm-line,
-h2.task-flexbox {
+h2.task-flexbox,
+.block-language-dataviewjs h2 {
     border-bottom: 1px solid lightgray;
 }
 
