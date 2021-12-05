@@ -14,11 +14,9 @@
   "metaedit",
   "obsidian-minimal-settings",
   "nldates-obsidian",
-  "oz-image-plugin",
   "pane-relief",
   "darlal-switcher-plus",
   "quickadd",
-  "obsidian-reading-time",
   "remember-cursor-position",
   "snippets",
   "tag-wrangler",
@@ -36,6 +34,6 @@
   "advanced-cursors",
   "obsidian-focus-mode",
   "obsidian-hider",
-  "obsidian-outliner",
-  "obsidian-codemirror-options"
+  "obsidian42-brat",
+  "get-info-plugin"
 ]

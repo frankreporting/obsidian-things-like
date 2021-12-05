@@ -4,7 +4,7 @@
 
 ## Why?
 
-I got used to the way Things for Mac helped me organize my projects and tasks, but I've always hated the frequent context switching. I wanted a similar way to navigate my folders and notes without as much need for the mouse or trackpad, and I wanted similar shortcuts that made it fast to create area and project folders. It's not perfect by any means, but while I haven't been able to recreate all the features I liked, there are others that Obsidian — with notable help from plugins like Templater, Dataview, customJS, QuickAdd, and MetaEdit — does better in my opinion: namely, the ability to make any note a task and any task a note.
+I got used to the way Things for Mac helped me organize my projects and tasks, but I've always hated the frequent context switching. I wanted a similar way to navigate my folders and notes without as much need for the mouse or trackpad, and I wanted similar shortcuts that made it fast to create area and project folders. It's not perfect by any means, but while I haven't been able to recreate all the features I liked, there are others that Obsidian — with help from some key plugins — does better in my opinion: namely, giving any task or project the full Obsidian note treatment.
 
 ## Demo
 
@@ -30,10 +30,9 @@ My particular solution relies on Dataview to render notes that are tagged `#task
 
 ## Limitations 
 
-This approach still has some notable limitations: 
+This approach still has at least one notable limitation compared to Things: 
 
 - **No notifications or reminders:** In the rare instances I need recurring, time-sensitive alerts, I still use Things, though I am considering finally embracing Apple's built-in reminders, since this is a small piece of my overall workflow.
-- **Not updated for CodeMirror 6 and Live Preview:** This demo still relies on CM5 and the CodeMirror Options plugin to get the WYSIWYG-like experience in the editor. I plan to update to make it play nicely with LP.
 
 ## Plugins Required:
 
@@ -42,7 +41,7 @@ This approach still has some notable limitations:
 - CustomJS
 - QuickAdd
 - MetaEdit
-- CodeMirror Options
+- CodeMirror Options (if you're on legacy editor)
 
 I use a lot more plugins than that, so if your layout doesn't look or function exactly like mine, it could be because of a plugin conflict, or you're on a different theme, or because of some CSS snippets I use, etc.
 

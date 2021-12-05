@@ -20,3 +20,30 @@ const {DvTasks} = customJS
 const {MarkTask} = customJS
 DvTasks.areaOrProject({app, dv, moment, luxon, that:this, markComplete:MarkTask.complete})
 ```
+
+
+```html
+<p>Here is a tag</p>
+<div class="something">
+<span>Some more text</span>
+</div>
+```
+
+
+```ad-bug
+title: This
+And here is some copy
+```
+
+```ad-error
+collapse: closed
+
+Here is some copy
+
+```
+
+
+
+> Here be a blockquote
+Pretty handy but similar problem.. if this is still part of the original blockquote then why make it look like multiple stacked ones?
+This is also blockquote? But why?

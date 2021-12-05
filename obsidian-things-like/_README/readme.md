@@ -38,7 +38,7 @@ This approach still has some notable limitations:
 ## Plugins Required:
 
 - Dataview
-- Templater
+    - Templater
 - CustomJS
 - QuickAdd
 - MetaEdit

@@ -9,78 +9,24 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "_README/readme.md",
+            "file": "10_Work/11_EmployerName/1st Project/Subproject 1/_Subproject 1.md",
             "mode": "source"
           }
         },
         "pane-relief:history-v1": {
-          "pos": 0,
+          "pos": 5,
           "stack": [
             {
               "leaf": "8addd1e71ce2f107",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_README/readme.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":11,\"ch\":0},\"to\":{\"line\":11,\"ch\":0}},\"scroll\":0.9947183098591549}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"10_Work/11_EmployerName/1st Project/1st Project.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":49,\"ch\":0},\"to\":{\"line\":49,\"ch\":0}},\"scroll\":0}"
             },
             {
               "leaf": "8addd1e71ce2f107",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"60_Learning/New project/_New project.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.023508137432188065}"
-            },
-            {
-              "leaf": "8addd1e71ce2f107",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"60_Learning/New project/This is a new note.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.023508137432188065}"
-            },
-            {
-              "leaf": "8addd1e71ce2f107",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"✔️/📥 Inbox.md\",\"mode\":\"preview\"}}",
-              "eState": "{\"scroll\":0.023508137432188065}"
-            },
-            {
-              "leaf": "8addd1e71ce2f107",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"60_Learning/New project/_New project.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":0.8010849909584087}"
-            },
-            {
-              "leaf": "8addd1e71ce2f107",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"60_Learning/New project/Something to do in the new project.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":16,\"ch\":0},\"to\":{\"line\":16,\"ch\":0}},\"scroll\":0.02462121212121212}"
-            },
-            {
-              "leaf": "8addd1e71ce2f107",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"60_Learning/New project/_New project.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":0.6546112115732369}"
-            },
-            {
-              "leaf": "8addd1e71ce2f107",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"✔️/☀️ Today.md\",\"mode\":\"preview\"}}",
-              "eState": "{\"scroll\":0.023508137432188065}"
-            },
-            {
-              "leaf": "8addd1e71ce2f107",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"60_Learning/New project/_New project.md\",\"mode\":\"source\"}}",
-              "eState": "{\"cursor\":{\"from\":{\"line\":12,\"ch\":0},\"to\":{\"line\":12,\"ch\":0}},\"scroll\":0.5479204339963833}"
-            },
-            {
-              "leaf": "8addd1e71ce2f107",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"60_Learning/_Learning.md\",\"mode\":\"preview\"}}",
-              "eState": "{\"scroll\":0.023508137432188065}"
-            },
-            {
-              "leaf": "8addd1e71ce2f107",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"60_Learning/New project/_New project.md\",\"mode\":\"source\"}}",
-              "eState": "{}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"10_Work/11_EmployerName/_Employer Name.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
             },
             {
               "leaf": "8addd1e71ce2f107",
@@ -91,50 +37,104 @@
             {
               "leaf": "8addd1e71ce2f107",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"✔️/🎛 Dashboard.md\",\"mode\":\"preview\"}}",
-              "eState": "{\"scroll\":0.023508137432188065}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"10_Work/11_EmployerName/_Employer Name.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.0235}"
             },
             {
               "leaf": "8addd1e71ce2f107",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"10_Work/11_EmployerName/_Employer Name.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":0.023508137432188065}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"10_Work/11_EmployerName/1st Project/1st Project.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":19},\"to\":{\"line\":6,\"ch\":19}},\"scroll\":0}"
+            },
+            {
+              "leaf": "8addd1e71ce2f107",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"10_Work/11_EmployerName/1st Project/Subproject 1/_Subproject 1.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":23,\"ch\":1},\"to\":{\"line\":23,\"ch\":1}},\"scroll\":0}"
+            },
+            {
+              "leaf": "8addd1e71ce2f107",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"10_Work/11_EmployerName/1st Project/1st Project.md\",\"mode\":\"preview\"}}",
+              "eState": "{\"scroll\":0.5333333333333333}"
             },
             {
               "leaf": "8addd1e71ce2f107",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"✔️/☀️ Today.md\",\"mode\":\"preview\"}}",
-              "eState": "{\"scroll\":0.023508137432188065}"
+              "eState": "{\"scroll\":0}"
             },
             {
               "leaf": "8addd1e71ce2f107",
               "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"10_Work/11_EmployerName/This is a new task.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":0.4430379746835443}"
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"80_PKM/85_People/Bobby Jean.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":23,\"ch\":0},\"to\":{\"line\":23,\"ch\":0}}}"
+            },
+            {
+              "leaf": "8addd1e71ce2f107",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"60_Learning/Repeating task.md\",\"mode\":\"preview\"}}",
+              "eState": "{\"scroll\":0.651}"
+            },
+            {
+              "leaf": "8addd1e71ce2f107",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"✔️/📅 Upcoming.md\",\"mode\":\"preview\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "8addd1e71ce2f107",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"✔️/☀️ Today.md\",\"mode\":\"preview\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "8addd1e71ce2f107",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"✔️/📔 Logbook.md\",\"mode\":\"preview\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "8addd1e71ce2f107",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"✔️/📥 Inbox.md\",\"mode\":\"preview\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "8addd1e71ce2f107",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"✔️/❓ Anytime.md\",\"mode\":\"preview\"}}",
+              "eState": "{}"
+            },
+            {
+              "leaf": "8addd1e71ce2f107",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"✔️/☀️ Today.md\",\"mode\":\"source\"}}",
+              "eState": "{\"scroll\":0}"
+            },
+            {
+              "leaf": "8addd1e71ce2f107",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"_README/readme.md\",\"mode\":\"source\"}}",
+              "eState": "{\"scroll\":6.236979166666667}"
+            },
+            {
+              "leaf": "8addd1e71ce2f107",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"60_Learning/New project/_New project.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.023508137432188065}"
+            },
+            {
+              "leaf": "8addd1e71ce2f107",
+              "group": null,
+              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"60_Learning/New project/This is a new note.md\",\"mode\":\"source\"}}",
+              "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.023508137432188065}"
             },
             {
               "leaf": "8addd1e71ce2f107",
               "group": null,
               "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"✔️/📥 Inbox.md\",\"mode\":\"preview\"}}",
               "eState": "{\"scroll\":0.023508137432188065}"
-            },
-            {
-              "leaf": "8addd1e71ce2f107",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"60_Learning/New project/This is a new note.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":0.02462121212121212}"
-            },
-            {
-              "leaf": "8addd1e71ce2f107",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"60_Learning/Repeating task.md\",\"mode\":\"source\"}}",
-              "eState": "{\"scroll\":0.650994575045208}"
-            },
-            {
-              "leaf": "8addd1e71ce2f107",
-              "group": null,
-              "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"✔️/🔄 Repeating.md\",\"mode\":\"preview\"}}",
-              "eState": "{}"
             }
           ]
         }
@@ -321,7 +321,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 336,
+    "collapsed": true
   },
   "right": {
     "id": "7e6ed56fcd720488",
@@ -337,7 +338,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_README/readme.md",
+                "file": "10_Work/11_EmployerName/1st Project/Subproject 1/_Subproject 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -358,7 +359,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_README/readme.md",
+                "file": "10_Work/11_EmployerName/1st Project/Subproject 1/_Subproject 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -389,7 +390,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_README/readme.md"
+                "file": "10_Work/11_EmployerName/1st Project/Subproject 1/_Subproject 1.md"
               }
             },
             "pane-relief:history-v1": {
@@ -434,7 +435,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -443,15 +444,15 @@
   },
   "active": "8addd1e71ce2f107",
   "lastOpenFiles": [
-    "_README/readme.md",
-    "60_Learning/New project/_New project.md",
-    "60_Learning/New project/This is a new note.md",
-    "✔️/📥 Inbox.md",
-    "60_Learning/New project/Something to do in the new project.md",
+    "10_Work/11_EmployerName/1st Project/Subproject 1/_Subproject 1.md",
+    "10_Work/11_EmployerName/1st Project/1st Project.md",
     "✔️/☀️ Today.md",
-    "60_Learning/_Learning.md",
+    "80_PKM/85_People/Bobby Jean.md",
+    "60_Learning/Repeating task.md",
+    "10_Work/11_EmployerName/_Employer Name.md",
     "10_Work/_Work.md",
-    "✔️/🎛 Dashboard.md",
-    "10_Work/11_EmployerName/_Employer Name.md"
+    "00_Meta/03_Attachments/90 copy.jpg",
+    "80_PKM/82_Sources/¶baldwin1993FireNext.md",
+    "60_Learning/New project/_New project.md"
   ]
 }

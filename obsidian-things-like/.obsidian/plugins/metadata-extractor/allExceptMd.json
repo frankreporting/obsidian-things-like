@@ -25,12 +25,12 @@
       "relativePath": "50_Creative"
     },
     {
-      "name": "60_Learning",
-      "relativePath": "60_Learning"
-    },
-    {
       "name": "70_Recreation",
       "relativePath": "70_Recreation"
+    },
+    {
+      "name": "60_Learning",
+      "relativePath": "60_Learning"
     },
     {
       "name": "80_PKM",
@@ -117,6 +117,10 @@
       "relativePath": "60_Learning/61_Classes"
     },
     {
+      "name": "New project",
+      "relativePath": "60_Learning/New project"
+    },
+    {
       "name": "81_Notes",
       "relativePath": "80_PKM/81_Notes"
     },
@@ -137,23 +141,29 @@
       "relativePath": "80_PKM/85_People"
     },
     {
-      "name": "1st Project",
-      "relativePath": "10_Work/11_EmployerName/1st Project"
-    },
-    {
       "name": "Another Big Thing To Work On",
       "relativePath": "10_Work/11_EmployerName/Another Big Thing To Work On"
     },
     {
-      "name": "Subproject 1",
-      "relativePath": "10_Work/11_EmployerName/1st Project/Subproject 1"
+      "name": "1st Project",
+      "relativePath": "10_Work/11_EmployerName/1st Project"
     },
     {
-      "name": "New project",
-      "relativePath": "60_Learning/New project"
+      "name": "Subproject 1",
+      "relativePath": "10_Work/11_EmployerName/1st Project/Subproject 1"
     }
   ],
   "nonMdFiles": [
+    {
+      "name": "obsidian-things-demo.gif",
+      "basename": "obsidian-things-demo",
+      "relativePath": "_README/obsidian-things-demo.gif"
+    },
+    {
+      "name": "obsidian-things-demo.mp4",
+      "basename": "obsidian-things-demo",
+      "relativePath": "_README/obsidian-things-demo.mp4"
+    },
     {
       "name": "custom-styles.css",
       "basename": "custom-styles",

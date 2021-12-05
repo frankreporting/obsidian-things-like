@@ -17,23 +17,23 @@
     ]
   },
   {
-    "fileName": "📥 Inbox",
-    "relativePath": "✔️/📥 Inbox.md",
-    "backlinks": [
-      {
-        "fileName": "Raw dataview scripts for project management (old)",
-        "link": "📥 Inbox",
-        "relativePath": "40_Productivity/Raw dataview scripts for project management (old).md"
-      }
-    ]
-  },
-  {
     "fileName": "📔 Logbook",
     "relativePath": "✔️/📔 Logbook.md",
     "backlinks": [
       {
         "fileName": "Raw dataview scripts for project management (old)",
         "link": "📔 Logbook",
+        "relativePath": "40_Productivity/Raw dataview scripts for project management (old).md"
+      }
+    ]
+  },
+  {
+    "fileName": "📥 Inbox",
+    "relativePath": "✔️/📥 Inbox.md",
+    "backlinks": [
+      {
+        "fileName": "Raw dataview scripts for project management (old)",
+        "link": "📥 Inbox",
         "relativePath": "40_Productivity/Raw dataview scripts for project management (old).md"
       }
     ]
@@ -137,11 +137,11 @@
         "level": 2
       },
       {
-        "heading": "Plugins Required:",
+        "heading": "Demo",
         "level": 2
       },
       {
-        "heading": "Key Scripts",
+        "heading": "Views",
         "level": 2
       },
       {
@@ -153,12 +153,24 @@
         "level": 2
       },
       {
+        "heading": "Limitations",
+        "level": 2
+      },
+      {
+        "heading": "Plugins Required:",
+        "level": 2
+      },
+      {
+        "heading": "Key Scripts",
+        "level": 2
+      },
+      {
         "heading": "A Word of Caution",
         "level": 2
       },
       {
-        "heading": "Road Map",
-        "level": 1
+        "heading": "Roadmap",
+        "level": 2
       }
     ]
   },
@@ -236,6 +248,30 @@
       {
         "heading": "Notes",
         "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "Bobby Jean",
+    "relativePath": "80_PKM/85_People/Bobby Jean.md",
+    "aliases": [
+      "@Bobby Jean"
+    ],
+    "headings": [
+      {
+        "heading": "Bobby Jean",
+        "level": 1
+      },
+      {
+        "heading": "Notes",
+        "level": 2
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "2021-12-04 Some new meeting",
+        "link": "Bobby Jean",
+        "relativePath": "00_Meta/06_Logbook/2021-12-04 Some new meeting.md"
       }
     ]
   },
@@ -629,32 +665,62 @@
     ]
   },
   {
-    "fileName": "Restaurants To Try",
-    "relativePath": "70_Recreation/Restaurants To Try.md"
+    "fileName": "_Learning",
+    "relativePath": "60_Learning/_Learning.md",
+    "tags": [
+      "area"
+    ],
+    "aliases": [
+      "🗃 Learning"
+    ],
+    "headings": [
+      {
+        "heading": "🗃 Learning",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "🎛 Dashboard",
+        "relativePath": "✔️/🎛 Dashboard.md",
+        "displayText": "Dashboard"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "Repeating task",
+        "link": "_Learning",
+        "relativePath": "60_Learning/Repeating task.md",
+        "displayText": "🗃 Learning"
+      },
+      {
+        "fileName": "_New project",
+        "link": "_Learning",
+        "relativePath": "60_Learning/New project/_New project.md",
+        "displayText": "🗃 Learning"
+      },
+      {
+        "fileName": "Something to do in the new project",
+        "link": "_Learning",
+        "relativePath": "60_Learning/New project/Something to do in the new project.md",
+        "displayText": "🗃 Learning"
+      }
+    ]
   },
   {
-    "fileName": "This is a new note",
-    "relativePath": "60_Learning/New project/This is a new note.md"
-  },
-  {
-    "fileName": "Something to do in the new project",
-    "relativePath": "60_Learning/New project/Something to do in the new project.md",
+    "fileName": "Repeating task",
+    "relativePath": "60_Learning/Repeating task.md",
     "tags": [
       "task"
     ],
     "links": [
-      {
-        "link": "_New project",
-        "relativePath": "60_Learning/New project/_New project.md",
-        "displayText": "⭕️ Learning.New project"
-      },
       {
         "link": "_Learning",
         "relativePath": "60_Learning/_Learning.md",
         "displayText": "🗃 Learning"
       },
       {
-        "link": "2021-12-07"
+        "link": "2022-01-02"
       }
     ]
   },
@@ -687,64 +753,34 @@
     ]
   },
   {
-    "fileName": "_Learning",
-    "relativePath": "60_Learning/_Learning.md",
-    "tags": [
-      "area"
-    ],
-    "aliases": [
-      "🗃 Learning"
-    ],
-    "headings": [
-      {
-        "heading": "🗃 Learning",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "🎛 Dashboard",
-        "relativePath": "✔️/🎛 Dashboard.md",
-        "displayText": "Dashboard"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "Something to do in the new project",
-        "link": "_Learning",
-        "relativePath": "60_Learning/New project/Something to do in the new project.md",
-        "displayText": "🗃 Learning"
-      },
-      {
-        "fileName": "_New project",
-        "link": "_Learning",
-        "relativePath": "60_Learning/New project/_New project.md",
-        "displayText": "🗃 Learning"
-      },
-      {
-        "fileName": "Repeating task",
-        "link": "_Learning",
-        "relativePath": "60_Learning/Repeating task.md",
-        "displayText": "🗃 Learning"
-      }
-    ]
+    "fileName": "This is a new note",
+    "relativePath": "60_Learning/New project/This is a new note.md"
   },
   {
-    "fileName": "Repeating task",
-    "relativePath": "60_Learning/Repeating task.md",
+    "fileName": "Something to do in the new project",
+    "relativePath": "60_Learning/New project/Something to do in the new project.md",
     "tags": [
       "task"
     ],
     "links": [
+      {
+        "link": "_New project",
+        "relativePath": "60_Learning/New project/_New project.md",
+        "displayText": "⭕️ Learning.New project"
+      },
       {
         "link": "_Learning",
         "relativePath": "60_Learning/_Learning.md",
         "displayText": "🗃 Learning"
       },
       {
-        "link": "2022-01-02"
+        "link": "2021-12-07"
       }
     ]
+  },
+  {
+    "fileName": "Restaurants To Try",
+    "relativePath": "70_Recreation/Restaurants To Try.md"
   },
   {
     "fileName": "_Creative",
@@ -904,6 +940,29 @@
     ]
   },
   {
+    "fileName": "Here is a test task",
+    "relativePath": "20_Personal/Here is a test task.md",
+    "tags": [
+      "task"
+    ],
+    "headings": [
+      {
+        "heading": "Here is a test task",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "_Personal",
+        "relativePath": "20_Personal/_Personal.md",
+        "displayText": "🗃 Personal"
+      },
+      {
+        "link": "2021-11-12"
+      }
+    ]
+  },
+  {
     "fileName": "_Personal",
     "relativePath": "20_Personal/_Personal.md",
     "tags": [
@@ -949,29 +1008,6 @@
         "link": "_Personal",
         "relativePath": "20_Personal/22_Recipes/_Recipes.md",
         "displayText": "🗃 Personal"
-      }
-    ]
-  },
-  {
-    "fileName": "Here is a test task",
-    "relativePath": "20_Personal/Here is a test task.md",
-    "tags": [
-      "task"
-    ],
-    "headings": [
-      {
-        "heading": "Here is a test task",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "_Personal",
-        "relativePath": "20_Personal/_Personal.md",
-        "displayText": "🗃 Personal"
-      },
-      {
-        "link": "2021-11-12"
       }
     ]
   },
@@ -1095,27 +1131,6 @@
     ]
   },
   {
-    "fileName": "202001181159 Rosslyns sauted shrimp",
-    "relativePath": "20_Personal/22_Recipes/202001181159 Rosslyns sauted shrimp.md",
-    "tags": [
-      "recipes"
-    ],
-    "headings": [
-      {
-        "heading": "Rosslyn’s sautéed shrimp",
-        "level": 1
-      },
-      {
-        "heading": "Ingredients",
-        "level": 3
-      },
-      {
-        "heading": "Directions",
-        "level": 3
-      }
-    ]
-  },
-  {
     "fileName": "201910021259 How to Make Sourdough Bread",
     "relativePath": "20_Personal/22_Recipes/201910021259 How to Make Sourdough Bread.md",
     "tags": [
@@ -1149,6 +1164,27 @@
       {
         "heading": "**How to Maintain Your Starter**",
         "level": 2
+      }
+    ]
+  },
+  {
+    "fileName": "202001181159 Rosslyns sauted shrimp",
+    "relativePath": "20_Personal/22_Recipes/202001181159 Rosslyns sauted shrimp.md",
+    "tags": [
+      "recipes"
+    ],
+    "headings": [
+      {
+        "heading": "Rosslyn’s sautéed shrimp",
+        "level": 1
+      },
+      {
+        "heading": "Ingredients",
+        "level": 3
+      },
+      {
+        "heading": "Directions",
+        "level": 3
       }
     ]
   },
@@ -1226,9 +1262,15 @@
         "displayText": "🗃 Work.Employer 1"
       },
       {
-        "fileName": "New thing to do",
+        "fileName": "1st Project",
         "link": "_Employer Name",
-        "relativePath": "10_Work/11_EmployerName/New thing to do.md",
+        "relativePath": "10_Work/11_EmployerName/1st Project/1st Project.md",
+        "displayText": "🗃 Work.Employer Name"
+      },
+      {
+        "fileName": "_Subproject 1",
+        "link": "_Employer Name",
+        "relativePath": "10_Work/11_EmployerName/1st Project/Subproject 1/_Subproject 1.md",
         "displayText": "🗃 Work.Employer Name"
       },
       {
@@ -1244,15 +1286,9 @@
         "displayText": "🗃 Work.Employer Name"
       },
       {
-        "fileName": "_Subproject 1",
+        "fileName": "New thing to do",
         "link": "_Employer Name",
-        "relativePath": "10_Work/11_EmployerName/1st Project/Subproject 1/_Subproject 1.md",
-        "displayText": "🗃 Work.Employer Name"
-      },
-      {
-        "fileName": "1st Project",
-        "link": "_Employer Name",
-        "relativePath": "10_Work/11_EmployerName/1st Project/1st Project.md",
+        "relativePath": "10_Work/11_EmployerName/New thing to do.md",
         "displayText": "🗃 Work.Employer Name"
       }
     ]
@@ -1275,10 +1311,13 @@
     ]
   },
   {
-    "fileName": "New thing to do",
-    "relativePath": "10_Work/11_EmployerName/New thing to do.md",
+    "fileName": "1st Project",
+    "relativePath": "10_Work/11_EmployerName/1st Project/1st Project.md",
     "tags": [
-      "task"
+      "project"
+    ],
+    "aliases": [
+      "⭕️ Work.Employer Name.1st Project"
     ],
     "links": [
       {
@@ -1287,8 +1326,37 @@
         "displayText": "🗃 Work.Employer Name"
       },
       {
-        "link": "2021-11-30",
-        "relativePath": "00_Meta/06_Logbook/2021-11-30.md"
+        "link": "2021-11-25"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "_Subproject 1",
+        "link": "1st Project",
+        "relativePath": "10_Work/11_EmployerName/1st Project/Subproject 1/_Subproject 1.md",
+        "displayText": "⭕️ Work.Employer Name.1st Project"
+      }
+    ]
+  },
+  {
+    "fileName": "_Subproject 1",
+    "relativePath": "10_Work/11_EmployerName/1st Project/Subproject 1/_Subproject 1.md",
+    "tags": [
+      "project"
+    ],
+    "aliases": [
+      "⭕️ Work.Employer Name.Subproject 1"
+    ],
+    "links": [
+      {
+        "link": "_Employer Name",
+        "relativePath": "10_Work/11_EmployerName/_Employer Name.md",
+        "displayText": "🗃 Work.Employer Name"
+      },
+      {
+        "link": "1st Project",
+        "relativePath": "10_Work/11_EmployerName/1st Project/1st Project.md",
+        "displayText": "⭕️ Work.Employer Name.1st Project"
       }
     ]
   },
@@ -1340,13 +1408,10 @@
     ]
   },
   {
-    "fileName": "_Subproject 1",
-    "relativePath": "10_Work/11_EmployerName/1st Project/Subproject 1/_Subproject 1.md",
+    "fileName": "New thing to do",
+    "relativePath": "10_Work/11_EmployerName/New thing to do.md",
     "tags": [
-      "project"
-    ],
-    "aliases": [
-      "⭕️ Work.Employer Name.Subproject 1"
+      "task"
     ],
     "links": [
       {
@@ -1355,37 +1420,38 @@
         "displayText": "🗃 Work.Employer Name"
       },
       {
-        "link": "1st Project",
-        "relativePath": "10_Work/11_EmployerName/1st Project/1st Project.md",
-        "displayText": "⭕️ Work.Employer Name.1st Project"
+        "link": "2021-11-30",
+        "relativePath": "00_Meta/06_Logbook/2021-11-30.md"
       }
     ]
   },
   {
-    "fileName": "1st Project",
-    "relativePath": "10_Work/11_EmployerName/1st Project/1st Project.md",
+    "fileName": "2021-12-04 Some new meeting",
+    "relativePath": "00_Meta/06_Logbook/2021-12-04 Some new meeting.md",
     "tags": [
-      "project"
+      "log"
     ],
     "aliases": [
-      "⭕️ Work.Employer Name.1st Project"
+      "12/4/21 Some new meeting"
+    ],
+    "headings": [
+      {
+        "heading": "Some new meeting",
+        "level": 1
+      },
+      {
+        "heading": "Notes:",
+        "level": 2
+      }
     ],
     "links": [
       {
-        "link": "_Employer Name",
-        "relativePath": "10_Work/11_EmployerName/_Employer Name.md",
-        "displayText": "🗃 Work.Employer Name"
+        "link": "2021-12-04",
+        "displayText": "Saturday"
       },
       {
-        "link": "2021-11-25"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "_Subproject 1",
-        "link": "1st Project",
-        "relativePath": "10_Work/11_EmployerName/1st Project/Subproject 1/_Subproject 1.md",
-        "displayText": "⭕️ Work.Employer Name.1st Project"
+        "link": "Bobby Jean",
+        "relativePath": "80_PKM/85_People/Bobby Jean.md"
       }
     ]
   },

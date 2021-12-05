@@ -5,16 +5,18 @@ Adapted from:
     - Ozan Tellioglu's oz-image-in-editor-obsidian: https://github.com/ozntel/oz-image-in-editor-obsidian
     - ChezFrancois's Typora-like Custom CSS shared in Obsidian Forum
 
-Last Updated: 11/30/21 
+Should work with both CodeMirror Options plugin on the legacy editor and Live Preview/CodeMirror 6 except where otherwise indicated.
+
+Last Updated: 12/4/21 
 */
 
 /* Headers */
-.markdown-preview-view h1, .hmd-fold-code-content.hmd-fold-code-dataview h1, .cm-header-1, .cm-s-obsidian .cm-header-1 { font-size: 1.64rem; }
-.markdown-preview-view h2, .hmd-fold-code-content.hmd-fold-code-dataview h2, .cm-header-2, .cm-s-obsidian .cm-header-2 { font-size: 1.33rem; }
-.markdown-preview-view h3, .hmd-fold-code-content.hmd-fold-code-dataview h3, .cm-header-3, .cm-s-obsidian .cm-header-3 { font-size: 1.16rem; }
-.markdown-preview-view h4, .hmd-fold-code-content.hmd-fold-code-dataview h4, .cm-header-4, .cm-s-obsidian .cm-header-4 { font-size: 1rem; }
-.markdown-preview-view h5, .hmd-fold-code-content.hmd-fold-code-dataview h5, .cm-header-5, .cm-s-obsidian .cm-header-5 { font-size: 0.83rem; }
-.markdown-preview-view h6, .hmd-fold-code-content.hmd-fold-code-dataview h6, .cm-header-6, .cm-s-obsidian .cm-header-6 { font-size: 0.64rem; }
+.markdown-preview-view h1, .hmd-fold-code-content.hmd-fold-code-dataview h1, .cm-header-1, .cm-s-obsidian .cm-header-1, h1.task-flexbox { font-size: 1.64rem; }
+.markdown-preview-view h2, .hmd-fold-code-content.hmd-fold-code-dataview h2, .cm-header-2, .cm-s-obsidian .cm-header-2, h2.task-flexbox { font-size: 1.33rem; }
+.markdown-preview-view h3, .hmd-fold-code-content.hmd-fold-code-dataview h3, .cm-header-3, .cm-s-obsidian .cm-header-3, h3.task-flexbox { font-size: 1.16rem; }
+.markdown-preview-view h4, .hmd-fold-code-content.hmd-fold-code-dataview h4, .cm-header-4, .cm-s-obsidian .cm-header-4, h4.task-flexbox { font-size: 1rem; }
+.markdown-preview-view h5, .hmd-fold-code-content.hmd-fold-code-dataview h5, .cm-header-5, .cm-s-obsidian .cm-header-5, h5.task-flexbox { font-size: 0.83rem; }
+.markdown-preview-view h6, .hmd-fold-code-content.hmd-fold-code-dataview h6, .cm-header-6, .cm-s-obsidian .cm-header-6, h6.task-flexbox { font-size: 0.64rem; }
 
 .markdown-preview-view h1, .hmd-fold-code-content.hmd-fold-code-dataview h1 { border-bottom: 2px solid; line-height: 1.1em; margin-top: 0.8em; padding-bottom: 0.2em;}
 .markdown-preview-view h2, .hmd-fold-code-content.hmd-fold-code-dataview h2 { border-bottom: 1px solid; line-height: 1em;}
@@ -26,46 +28,17 @@ Last Updated: 11/30/21
 .cm-formatting-header-5 { font-size: 0.83rem; }
 .cm-formatting-header-6 { font-size: 0.64rem; }
 
-/* div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-header {
-  color: transparent !important;
-}
-
-div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-header::before {
-  display: inline-block !important;
-  white-space: nowrap;
-  word-wrap: none;
-  width:0;
-  overflow:visible;
-  font-size: 0.75rem;
-  color: var(--text-muted);
-} */
-
-/* div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-header-1::before {
-  content: 'H1';
-}
-div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-header-2::before {
-  content: 'H2';
-}
-div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-header-3::before {
-  content: 'H3';
-}
-div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-header-4::before {
-  content: 'H4';
-}
-div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-header-5::before {
-  content: 'H5';
-}
-div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-header-6::before {
-  content: 'H6';
-} */
-
 /* H1 and H2 underlines */
-.HyperMD-header.HyperMD-header-1.CodeMirror-line {
+.HyperMD-header.HyperMD-header-1.CodeMirror-line, 
+.HyperMD-header.HyperMD-header-1.cm-line,
+h1.task-flexbox {
     border-bottom: 2px solid lightgray;
     border-bottom: linear
 }
 
-.HyperMD-header.HyperMD-header-2.CodeMirror-line {
+.HyperMD-header.HyperMD-header-2.CodeMirror-line, 
+.HyperMD-header.HyperMD-header-2.cm-line,
+h2.task-flexbox {
     border-bottom: 1px solid lightgray;
 }
 
@@ -94,8 +67,6 @@ div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-hmd-indent-in-quote {
   display: inline !important;
 }
 div:not(.CodeMirror-activeline)>.HyperMD-quote {
-   /* border-left: 3px solid var(--text-selection);
-   border-color: var(--text-accent) !important; */
    border-radius: 8px; /* 0 8px 8px 0; */
    background-color: #fefffe; /* rgb(238, 234, 234); */
    margin-left: 5px;
@@ -105,6 +76,7 @@ div:not(.CodeMirror-activeline)>.HyperMD-quote {
 }
 
 /* --- UNORDERED LISTS ---  */
+/* These only work on CM5/CodeMirror Options */
 
 span.cm-formatting-list.cm-formatting-list-ul {
   color: transparent !important;
@@ -191,7 +163,7 @@ span.cm-formatting-list.cm-formatting-list-ul {
   margin-left: 4.6em;
 }
 
-/* --- TASKS ---  */
+/* --- MARKDOWN TASKS ---  */
 
 .cm-formatting-task.cm-meta,
 .cm-formatting-task.cm-property {
@@ -236,55 +208,3 @@ span.cm-formatting-task.cm-property ~ span,
   text-decoration: line-through;
   color: rgb(124, 131, 124) !important;
 }
-
-/* --- HIGHLIGHTS ---  */
-
-/* hide == if not active line */
-/* div:not(.CodeMirror-activeline) > .CodeMirror-line .cm-formatting-highlight.cm-highlight {
-    font-size: 0;
-   } */
-
-/* --- BOLD ---  */
-
-/* Hide ** if not active line */
-/* div:not(.CodeMirror-activeline) > 
-.CodeMirror-line span.cm-formatting.cm-formatting-strong.cm-strong {
-    display:none;
-} */
-
-/* --- ITALIC ---  */
-
-/* Hide * if not active line */
-/* div:not(.CodeMirror-activeline) >
-.CodeMirror-line span.cm-formatting.cm-formatting-em.cm-em {
-    display:none;
-} */
-
-/* --- LINKS ---  */
-/* div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-string.cm-url {
-  visibility: hidden;
-  /* display: none; */
-  /* font-size: 0; */
-  /* position: absolute;
-}  */
-
-/* div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-list.cm-formatting-list-ul {
-  visibility: visible !important;
-} */
-
-/* div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-link-string.cm-string.cm-url::after {
-  content: "(🔗)";
-  /* font-size: 1em !important; 
-  visibility: visible;
-  position: relative;
-  display: inline-block;
-  margin-right: 10px;
-} */
-
-/* div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-string.cm-url {
-  font-size: 0em;
-}
-div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting.cm-formatting-link-string.cm-string.cm-url::after {
-  content: "(🔗)";
-  font-size: 1em !important;
-} */

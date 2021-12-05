@@ -54,5 +54,5 @@
     "editor:configure-toolbar",
     "text-snippets-obsidian:text-snippets"
   ],
-  "livePreview": false
+  "livePreview": true
 }

@@ -5,5 +5,19 @@
   "global@@task-pc": 7,
   "global@@task-mobile": 10,
   "global@@blockquote": true,
-  "CodeMirror Options@@cm-theme-selection": "cm-theme-material-palenight"
+  "CodeMirror Options@@cm-theme-selection": "cm-theme-material-palenight",
+  "Yin and Yang@@l-accent": "#6C87DA",
+  "Yin and Yang@@d-accent": "#5982FF",
+  "Yin and Yang@@base-h": 209,
+  "Yin and Yang@@base-s": 14,
+  "Yin and Yang@@base-d": 4,
+  "Yin and Yang@@l-blockquote": "#668BFF",
+  "Yin and Yang@@d-blockquote": "#668BFF",
+  "Yin and Yang@@strong-color@@light": "#000000",
+  "Yin and Yang@@strong-color@@dark": "#FFFFFF",
+  "Yin and Yang@@disable-side-animation": false,
+  "Yin and Yang@@show-fx-folder-icons": true,
+  "Yin and Yang@@fx-rel-lines": true,
+  "Yin and Yang@@all-sides": false,
+  "Yin and Yang@@macOS-translucent": true
 }
