@@ -8,7 +8,7 @@ I got used to the way Things for Mac helped me organize my projects and tasks, b
 
 ## Demo
 
-![](obsidian-things-demo.mp4)
+https://user-images.githubusercontent.com/2828254/144732677-b5555020-0787-4e56-9067-f7671afddf31.mp4
 
 ## Views
 
