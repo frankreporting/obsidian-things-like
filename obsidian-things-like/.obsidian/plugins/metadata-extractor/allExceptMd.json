@@ -21,6 +21,10 @@
       "relativePath": "40_Productivity"
     },
     {
+      "name": "60_Learning",
+      "relativePath": "60_Learning"
+    },
+    {
       "name": "50_Creative",
       "relativePath": "50_Creative"
     },
@@ -29,16 +33,12 @@
       "relativePath": "70_Recreation"
     },
     {
-      "name": "60_Learning",
-      "relativePath": "60_Learning"
+      "name": "90_Archive",
+      "relativePath": "90_Archive"
     },
     {
       "name": "80_PKM",
       "relativePath": "80_PKM"
-    },
-    {
-      "name": "90_Archive",
-      "relativePath": "90_Archive"
     },
     {
       "name": "_README",
@@ -69,12 +69,12 @@
       "relativePath": "00_Meta/05_Inbox"
     },
     {
-      "name": "06_Logbook",
-      "relativePath": "00_Meta/06_Logbook"
-    },
-    {
       "name": "07_Scripts",
       "relativePath": "00_Meta/07_Scripts"
+    },
+    {
+      "name": "06_Logbook",
+      "relativePath": "00_Meta/06_Logbook"
     },
     {
       "name": "08_QuickAdd",
@@ -141,12 +141,12 @@
       "relativePath": "80_PKM/85_People"
     },
     {
-      "name": "Another Big Thing To Work On",
-      "relativePath": "10_Work/11_EmployerName/Another Big Thing To Work On"
-    },
-    {
       "name": "1st Project",
       "relativePath": "10_Work/11_EmployerName/1st Project"
+    },
+    {
+      "name": "Another Big Thing To Work On",
+      "relativePath": "10_Work/11_EmployerName/Another Big Thing To Work On"
     },
     {
       "name": "Subproject 1",

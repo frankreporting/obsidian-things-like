@@ -17,23 +17,23 @@
     ]
   },
   {
-    "fileName": "📔 Logbook",
-    "relativePath": "✔️/📔 Logbook.md",
-    "backlinks": [
-      {
-        "fileName": "Raw dataview scripts for project management (old)",
-        "link": "📔 Logbook",
-        "relativePath": "40_Productivity/Raw dataview scripts for project management (old).md"
-      }
-    ]
-  },
-  {
     "fileName": "📥 Inbox",
     "relativePath": "✔️/📥 Inbox.md",
     "backlinks": [
       {
         "fileName": "Raw dataview scripts for project management (old)",
         "link": "📥 Inbox",
+        "relativePath": "40_Productivity/Raw dataview scripts for project management (old).md"
+      }
+    ]
+  },
+  {
+    "fileName": "📔 Logbook",
+    "relativePath": "✔️/📔 Logbook.md",
+    "backlinks": [
+      {
+        "fileName": "Raw dataview scripts for project management (old)",
+        "link": "📔 Logbook",
         "relativePath": "40_Productivity/Raw dataview scripts for project management (old).md"
       }
     ]
@@ -60,27 +60,27 @@
     "relativePath": "✔️/🎛 Dashboard.md",
     "backlinks": [
       {
-        "fileName": "_Archive",
-        "link": "🎛 Dashboard",
-        "relativePath": "90_Archive/_Archive.md",
-        "displayText": "Dashboard"
-      },
-      {
         "fileName": "_PKM",
         "link": "🎛 Dashboard",
         "relativePath": "80_PKM/_PKM.md",
         "displayText": "⤴️ Dashboard"
       },
       {
-        "fileName": "_Learning",
+        "fileName": "_Archive",
         "link": "🎛 Dashboard",
-        "relativePath": "60_Learning/_Learning.md",
+        "relativePath": "90_Archive/_Archive.md",
         "displayText": "Dashboard"
       },
       {
         "fileName": "_Creative",
         "link": "🎛 Dashboard",
         "relativePath": "50_Creative/_Creative.md",
+        "displayText": "Dashboard"
+      },
+      {
+        "fileName": "_Learning",
+        "link": "🎛 Dashboard",
+        "relativePath": "60_Learning/_Learning.md",
         "displayText": "Dashboard"
       },
       {
@@ -175,66 +175,6 @@
     ]
   },
   {
-    "fileName": "_Archive",
-    "relativePath": "90_Archive/_Archive.md",
-    "tags": [
-      "area"
-    ],
-    "aliases": [
-      "🗃 Archive"
-    ],
-    "headings": [
-      {
-        "heading": "Archive",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "🎛 Dashboard",
-        "relativePath": "✔️/🎛 Dashboard.md",
-        "displayText": "Dashboard"
-      }
-    ]
-  },
-  {
-    "fileName": "_PKM",
-    "relativePath": "80_PKM/_PKM.md",
-    "tags": [
-      "area"
-    ],
-    "aliases": [
-      "🗃 PKM"
-    ],
-    "headings": [
-      {
-        "heading": "🗃 Personal Knowledge Management",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "🎛 Dashboard",
-        "relativePath": "✔️/🎛 Dashboard.md",
-        "displayText": "⤴️ Dashboard"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "_Subjects",
-        "link": "_PKM",
-        "relativePath": "80_PKM/83_Subjects/_Subjects.md",
-        "displayText": "🗃 PKM"
-      },
-      {
-        "fileName": "_Sources",
-        "link": "_PKM",
-        "relativePath": "80_PKM/82_Sources/_Sources.md",
-        "displayText": "🗃 PKM"
-      }
-    ]
-  },
-  {
     "fileName": "Joe Smith",
     "relativePath": "80_PKM/85_People/Joe Smith.md",
     "aliases": [
@@ -272,6 +212,43 @@
         "fileName": "2021-12-04 Some new meeting",
         "link": "Bobby Jean",
         "relativePath": "00_Meta/06_Logbook/2021-12-04 Some new meeting.md"
+      }
+    ]
+  },
+  {
+    "fileName": "_PKM",
+    "relativePath": "80_PKM/_PKM.md",
+    "tags": [
+      "area"
+    ],
+    "aliases": [
+      "🗃 PKM"
+    ],
+    "headings": [
+      {
+        "heading": "🗃 Personal Knowledge Management",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "🎛 Dashboard",
+        "relativePath": "✔️/🎛 Dashboard.md",
+        "displayText": "⤴️ Dashboard"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "_Subjects",
+        "link": "_PKM",
+        "relativePath": "80_PKM/83_Subjects/_Subjects.md",
+        "displayText": "🗃 PKM"
+      },
+      {
+        "fileName": "_Sources",
+        "link": "_PKM",
+        "relativePath": "80_PKM/82_Sources/_Sources.md",
+        "displayText": "🗃 PKM"
       }
     ]
   },
@@ -482,6 +459,30 @@
     ]
   },
   {
+    "fileName": "On Writing",
+    "relativePath": "80_PKM/83_Subjects/On Writing.md",
+    "aliases": [
+      "§ On Writing"
+    ],
+    "headings": [
+      {
+        "heading": "On Writing",
+        "level": 1
+      },
+      {
+        "heading": "Notes by Tag",
+        "level": 2
+      }
+    ],
+    "links": [
+      {
+        "link": "_Subjects",
+        "relativePath": "80_PKM/83_Subjects/_Subjects.md",
+        "displayText": "🗃 PKM.Subjects"
+      }
+    ]
+  },
+  {
     "fileName": "Personal Knowledge Management",
     "relativePath": "80_PKM/83_Subjects/Personal Knowledge Management.md",
     "aliases": [
@@ -515,30 +516,6 @@
         "fileName": "Productivity Tools",
         "link": "Personal Knowledge Management",
         "relativePath": "80_PKM/83_Subjects/Productivity Tools.md"
-      }
-    ]
-  },
-  {
-    "fileName": "On Writing",
-    "relativePath": "80_PKM/83_Subjects/On Writing.md",
-    "aliases": [
-      "§ On Writing"
-    ],
-    "headings": [
-      {
-        "heading": "On Writing",
-        "level": 1
-      },
-      {
-        "heading": "Notes by Tag",
-        "level": 2
-      }
-    ],
-    "links": [
-      {
-        "link": "_Subjects",
-        "relativePath": "80_PKM/83_Subjects/_Subjects.md",
-        "displayText": "🗃 PKM.Subjects"
       }
     ]
   },
@@ -665,6 +642,56 @@
     ]
   },
   {
+    "fileName": "_Archive",
+    "relativePath": "90_Archive/_Archive.md",
+    "tags": [
+      "area"
+    ],
+    "aliases": [
+      "🗃 Archive"
+    ],
+    "headings": [
+      {
+        "heading": "Archive",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "🎛 Dashboard",
+        "relativePath": "✔️/🎛 Dashboard.md",
+        "displayText": "Dashboard"
+      }
+    ]
+  },
+  {
+    "fileName": "Restaurants To Try",
+    "relativePath": "70_Recreation/Restaurants To Try.md"
+  },
+  {
+    "fileName": "_Creative",
+    "relativePath": "50_Creative/_Creative.md",
+    "tags": [
+      "area"
+    ],
+    "aliases": [
+      "🗃 Creative"
+    ],
+    "headings": [
+      {
+        "heading": "Creative",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "🎛 Dashboard",
+        "relativePath": "✔️/🎛 Dashboard.md",
+        "displayText": "Dashboard"
+      }
+    ]
+  },
+  {
     "fileName": "_Learning",
     "relativePath": "60_Learning/_Learning.md",
     "tags": [
@@ -753,10 +780,6 @@
     ]
   },
   {
-    "fileName": "This is a new note",
-    "relativePath": "60_Learning/New project/This is a new note.md"
-  },
-  {
     "fileName": "Something to do in the new project",
     "relativePath": "60_Learning/New project/Something to do in the new project.md",
     "tags": [
@@ -779,31 +802,8 @@
     ]
   },
   {
-    "fileName": "Restaurants To Try",
-    "relativePath": "70_Recreation/Restaurants To Try.md"
-  },
-  {
-    "fileName": "_Creative",
-    "relativePath": "50_Creative/_Creative.md",
-    "tags": [
-      "area"
-    ],
-    "aliases": [
-      "🗃 Creative"
-    ],
-    "headings": [
-      {
-        "heading": "Creative",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "🎛 Dashboard",
-        "relativePath": "✔️/🎛 Dashboard.md",
-        "displayText": "Dashboard"
-      }
-    ]
+    "fileName": "This is a new note",
+    "relativePath": "60_Learning/New project/This is a new note.md"
   },
   {
     "fileName": "_Productivity",
@@ -940,29 +940,6 @@
     ]
   },
   {
-    "fileName": "Here is a test task",
-    "relativePath": "20_Personal/Here is a test task.md",
-    "tags": [
-      "task"
-    ],
-    "headings": [
-      {
-        "heading": "Here is a test task",
-        "level": 1
-      }
-    ],
-    "links": [
-      {
-        "link": "_Personal",
-        "relativePath": "20_Personal/_Personal.md",
-        "displayText": "🗃 Personal"
-      },
-      {
-        "link": "2021-11-12"
-      }
-    ]
-  },
-  {
     "fileName": "_Personal",
     "relativePath": "20_Personal/_Personal.md",
     "tags": [
@@ -1008,6 +985,29 @@
         "link": "_Personal",
         "relativePath": "20_Personal/22_Recipes/_Recipes.md",
         "displayText": "🗃 Personal"
+      }
+    ]
+  },
+  {
+    "fileName": "Here is a test task",
+    "relativePath": "20_Personal/Here is a test task.md",
+    "tags": [
+      "task"
+    ],
+    "headings": [
+      {
+        "heading": "Here is a test task",
+        "level": 1
+      }
+    ],
+    "links": [
+      {
+        "link": "_Personal",
+        "relativePath": "20_Personal/_Personal.md",
+        "displayText": "🗃 Personal"
+      },
+      {
+        "link": "2021-11-12"
       }
     ]
   },
@@ -1065,6 +1065,28 @@
     ]
   },
   {
+    "fileName": "202001252153 Cracker Barrel Buttermilk Pancakes Recipe",
+    "relativePath": "20_Personal/22_Recipes/202001252153 Cracker Barrel Buttermilk Pancakes Recipe.md",
+    "tags": [
+      "recipes",
+      "health"
+    ],
+    "headings": [
+      {
+        "heading": "Cracker Barrel Buttermilk Pancakes",
+        "level": 1
+      },
+      {
+        "heading": "INGREDIENTS",
+        "level": 2
+      },
+      {
+        "heading": "DIRECTIONS",
+        "level": 2
+      }
+    ]
+  },
+  {
     "fileName": "_Recipes",
     "relativePath": "20_Personal/22_Recipes/_Recipes.md",
     "tags": [
@@ -1088,28 +1110,6 @@
     ]
   },
   {
-    "fileName": "202001252153 Cracker Barrel Buttermilk Pancakes Recipe",
-    "relativePath": "20_Personal/22_Recipes/202001252153 Cracker Barrel Buttermilk Pancakes Recipe.md",
-    "tags": [
-      "recipes",
-      "health"
-    ],
-    "headings": [
-      {
-        "heading": "Cracker Barrel Buttermilk Pancakes",
-        "level": 1
-      },
-      {
-        "heading": "INGREDIENTS",
-        "level": 2
-      },
-      {
-        "heading": "DIRECTIONS",
-        "level": 2
-      }
-    ]
-  },
-  {
     "fileName": "202001181200 Bull jowl",
     "relativePath": "20_Personal/22_Recipes/202001181200 Bull jowl.md",
     "tags": [
@@ -1118,6 +1118,27 @@
     "headings": [
       {
         "heading": "Bull jowl",
+        "level": 1
+      },
+      {
+        "heading": "Ingredients",
+        "level": 3
+      },
+      {
+        "heading": "Directions",
+        "level": 3
+      }
+    ]
+  },
+  {
+    "fileName": "202001181159 Rosslyns sauted shrimp",
+    "relativePath": "20_Personal/22_Recipes/202001181159 Rosslyns sauted shrimp.md",
+    "tags": [
+      "recipes"
+    ],
+    "headings": [
+      {
+        "heading": "Rosslyn’s sautéed shrimp",
         "level": 1
       },
       {
@@ -1164,27 +1185,6 @@
       {
         "heading": "**How to Maintain Your Starter**",
         "level": 2
-      }
-    ]
-  },
-  {
-    "fileName": "202001181159 Rosslyns sauted shrimp",
-    "relativePath": "20_Personal/22_Recipes/202001181159 Rosslyns sauted shrimp.md",
-    "tags": [
-      "recipes"
-    ],
-    "headings": [
-      {
-        "heading": "Rosslyn’s sautéed shrimp",
-        "level": 1
-      },
-      {
-        "heading": "Ingredients",
-        "level": 3
-      },
-      {
-        "heading": "Directions",
-        "level": 3
       }
     ]
   },
@@ -1262,15 +1262,9 @@
         "displayText": "🗃 Work.Employer 1"
       },
       {
-        "fileName": "1st Project",
+        "fileName": "New thing to do",
         "link": "_Employer Name",
-        "relativePath": "10_Work/11_EmployerName/1st Project/1st Project.md",
-        "displayText": "🗃 Work.Employer Name"
-      },
-      {
-        "fileName": "_Subproject 1",
-        "link": "_Employer Name",
-        "relativePath": "10_Work/11_EmployerName/1st Project/Subproject 1/_Subproject 1.md",
+        "relativePath": "10_Work/11_EmployerName/New thing to do.md",
         "displayText": "🗃 Work.Employer Name"
       },
       {
@@ -1286,9 +1280,15 @@
         "displayText": "🗃 Work.Employer Name"
       },
       {
-        "fileName": "New thing to do",
+        "fileName": "_Subproject 1",
         "link": "_Employer Name",
-        "relativePath": "10_Work/11_EmployerName/New thing to do.md",
+        "relativePath": "10_Work/11_EmployerName/1st Project/Subproject 1/_Subproject 1.md",
+        "displayText": "🗃 Work.Employer Name"
+      },
+      {
+        "fileName": "1st Project",
+        "link": "_Employer Name",
+        "relativePath": "10_Work/11_EmployerName/1st Project/1st Project.md",
         "displayText": "🗃 Work.Employer Name"
       }
     ]
@@ -1311,13 +1311,10 @@
     ]
   },
   {
-    "fileName": "1st Project",
-    "relativePath": "10_Work/11_EmployerName/1st Project/1st Project.md",
+    "fileName": "New thing to do",
+    "relativePath": "10_Work/11_EmployerName/New thing to do.md",
     "tags": [
-      "project"
-    ],
-    "aliases": [
-      "⭕️ Work.Employer Name.1st Project"
+      "task"
     ],
     "links": [
       {
@@ -1326,37 +1323,8 @@
         "displayText": "🗃 Work.Employer Name"
       },
       {
-        "link": "2021-11-25"
-      }
-    ],
-    "backlinks": [
-      {
-        "fileName": "_Subproject 1",
-        "link": "1st Project",
-        "relativePath": "10_Work/11_EmployerName/1st Project/Subproject 1/_Subproject 1.md",
-        "displayText": "⭕️ Work.Employer Name.1st Project"
-      }
-    ]
-  },
-  {
-    "fileName": "_Subproject 1",
-    "relativePath": "10_Work/11_EmployerName/1st Project/Subproject 1/_Subproject 1.md",
-    "tags": [
-      "project"
-    ],
-    "aliases": [
-      "⭕️ Work.Employer Name.Subproject 1"
-    ],
-    "links": [
-      {
-        "link": "_Employer Name",
-        "relativePath": "10_Work/11_EmployerName/_Employer Name.md",
-        "displayText": "🗃 Work.Employer Name"
-      },
-      {
-        "link": "1st Project",
-        "relativePath": "10_Work/11_EmployerName/1st Project/1st Project.md",
-        "displayText": "⭕️ Work.Employer Name.1st Project"
+        "link": "2021-11-30",
+        "relativePath": "00_Meta/06_Logbook/2021-11-30.md"
       }
     ]
   },
@@ -1408,10 +1376,13 @@
     ]
   },
   {
-    "fileName": "New thing to do",
-    "relativePath": "10_Work/11_EmployerName/New thing to do.md",
+    "fileName": "_Subproject 1",
+    "relativePath": "10_Work/11_EmployerName/1st Project/Subproject 1/_Subproject 1.md",
     "tags": [
-      "task"
+      "project"
+    ],
+    "aliases": [
+      "⭕️ Work.Employer Name.Subproject 1"
     ],
     "links": [
       {
@@ -1420,8 +1391,37 @@
         "displayText": "🗃 Work.Employer Name"
       },
       {
-        "link": "2021-11-30",
-        "relativePath": "00_Meta/06_Logbook/2021-11-30.md"
+        "link": "1st Project",
+        "relativePath": "10_Work/11_EmployerName/1st Project/1st Project.md",
+        "displayText": "⭕️ Work.Employer Name.1st Project"
+      }
+    ]
+  },
+  {
+    "fileName": "1st Project",
+    "relativePath": "10_Work/11_EmployerName/1st Project/1st Project.md",
+    "tags": [
+      "project"
+    ],
+    "aliases": [
+      "⭕️ Work.Employer Name.1st Project"
+    ],
+    "links": [
+      {
+        "link": "_Employer Name",
+        "relativePath": "10_Work/11_EmployerName/_Employer Name.md",
+        "displayText": "🗃 Work.Employer Name"
+      },
+      {
+        "link": "2021-11-25"
+      }
+    ],
+    "backlinks": [
+      {
+        "fileName": "_Subproject 1",
+        "link": "1st Project",
+        "relativePath": "10_Work/11_EmployerName/1st Project/Subproject 1/_Subproject 1.md",
+        "displayText": "⭕️ Work.Employer Name.1st Project"
       }
     ]
   },
@@ -1569,6 +1569,10 @@
     ]
   },
   {
+    "fileName": "Note Composer",
+    "relativePath": "00_Meta/01_Templates/Note Composer.md"
+  },
+  {
     "fileName": "Person",
     "relativePath": "00_Meta/01_Templates/Person.md",
     "backlinks": [
@@ -1578,10 +1582,6 @@
         "relativePath": "00_Meta/01_Templates/Get Template.md"
       }
     ]
-  },
-  {
-    "fileName": "Note Composer",
-    "relativePath": "00_Meta/01_Templates/Note Composer.md"
   },
   {
     "fileName": "Log",

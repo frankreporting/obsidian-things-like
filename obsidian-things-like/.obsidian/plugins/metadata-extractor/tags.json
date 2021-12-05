@@ -3,12 +3,12 @@
     "tag": "area",
     "tagCount": 13,
     "relativePaths": [
-      "90_Archive/_Archive.md",
       "80_PKM/_PKM.md",
       "80_PKM/83_Subjects/_Subjects.md",
       "80_PKM/82_Sources/_Sources.md",
-      "60_Learning/_Learning.md",
+      "90_Archive/_Archive.md",
       "50_Creative/_Creative.md",
+      "60_Learning/_Learning.md",
       "40_Productivity/_Productivity.md",
       "20_Personal/_Personal.md",
       "20_Personal/25_Family/_Family.md",
@@ -61,8 +61,8 @@
       "60_Learning/New project/Something to do in the new project.md",
       "20_Personal/Here is a test task.md",
       "10_Work/11_EmployerName/This is a new task.md",
-      "10_Work/11_EmployerName/Another Big Thing To Work On/Something very important.md",
-      "10_Work/11_EmployerName/New thing to do.md"
+      "10_Work/11_EmployerName/New thing to do.md",
+      "10_Work/11_EmployerName/Another Big Thing To Work On/Something very important.md"
     ]
   },
   {
@@ -70,9 +70,9 @@
     "tagCount": 6,
     "relativePaths": [
       "60_Learning/New project/_New project.md",
-      "10_Work/11_EmployerName/1st Project/1st Project.md",
-      "10_Work/11_EmployerName/1st Project/Subproject 1/_Subproject 1.md",
       "10_Work/11_EmployerName/Another Big Thing To Work On/_Another Big Thing To Work On.md",
+      "10_Work/11_EmployerName/1st Project/Subproject 1/_Subproject 1.md",
+      "10_Work/11_EmployerName/1st Project/1st Project.md",
       "00_Meta/01_Templates/Task.md",
       "00_Meta/01_Templates/Area or Project.md"
     ]
@@ -83,8 +83,8 @@
     "relativePaths": [
       "20_Personal/22_Recipes/202001252153 Cracker Barrel Buttermilk Pancakes Recipe.md",
       "20_Personal/22_Recipes/202001181200 Bull jowl.md",
-      "20_Personal/22_Recipes/201910021259 How to Make Sourdough Bread.md",
       "20_Personal/22_Recipes/202001181159 Rosslyns sauted shrimp.md",
+      "20_Personal/22_Recipes/201910021259 How to Make Sourdough Bread.md",
       "20_Personal/22_Recipes/201812151334 Trinidad stewed beef and dumplings.md"
     ]
   },
